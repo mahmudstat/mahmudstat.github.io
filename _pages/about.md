@@ -1,18 +1,15 @@
 ---
 layout: about
 title: About Me
-author: Johnathan Smith
+author: Abdullah Al Mahmud
 image: assets/images/about/author.jpg
 signature: assets/images/about/signature.png
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo consequat.
+I am a lecturer of statistics at Pabna Cadet College, Pabna, where I joined on 19 October, 2019. Before joining here, I was employed as a research assistant at EAL, Dhaka. I also worked as a science contributor for The Daily Prothom Alo. I have written three science books, which are all available for purchase on [Rokomari.com](https://www.rokomari.com/book/author/47631).
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident.
-
-Deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.
+Hailing from Lakshmipur Sadar Upazila, I graduated with B.S. and M.S. degrees from the University of Dhaka.
+I founded Bishwo.com and serve as the editor and contributor of মহাবিশ্ব and Stat Mania.
+I am very passionate about teaching, writing, programming, and data analysis, and I continue doing all of them.
+Learning is by far my best hobby. In my free time, I love to roam around, connect with people, and watch sky.
+I am married 💓 to Salma Siddika, also an alumni of University of Dhaka.
