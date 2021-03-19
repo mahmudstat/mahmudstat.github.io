@@ -1,13 +1,13 @@
 #-------------------------------
 # General Site Settings
 
-title: Kross
+title: Mahmud
 logo: 
 author: themefisher
-description: this is meta description
-email: steve.fruits@email.com
-phone: +880 2544 658 256
-address: 125/A, CA Commercial Area, California, USA
+description: Abdullah Al Mahmud, lecturer in statistics and a writer and data analyst.
+email: info@thinkermahmud.com
+phone: +880 1722437040
+address: Pabna Cadet College, Pabna
 copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
 menu:
@@ -41,7 +41,7 @@ hero:
   hero-title: Hi! I’m <br> Christoher <br> UX designer
 
 social:
-- {icon: "ti-facebook", link: "#"}
+- {icon: "ti-facebook", link: "https://www.facebook.com/mahmud.sbi/"}
 - {icon: "ti-instagram", link: "#"}
 - {icon: "ti-dribbble", link: "#"}
 - {icon: "ti-twitter", link: "#"}
@@ -52,7 +52,7 @@ social:
 
 # About Section
 blurb:
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  I earned B.S. and M.S. degrees from the Univeristy of Dhaka. I have wrritten four science books.
 
 blurb-btn-link: '/about'
 blurb-btn-name: know more
@@ -95,7 +95,7 @@ team:
 
 skills-title: Skills
 skills:
-- {name: Web Design, color: '#fdb157', value: '90%'}
+- {name: R programming, color: '#fdb157', value: '60%'}
 - {name: Logo Design, color: '#9473e6', value: '60%'}
 - {name: After Effects, color: '#bdecf6', value: '80%'}
 - {name: Web App, color: '#ffbcaa', value: '70%'}
