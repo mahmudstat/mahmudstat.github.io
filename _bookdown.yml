@@ -1,0 +1,9 @@
+book_filename: "books"
+language:
+  ui:
+    chapter_name: "বই:"
+delete_merged_file: true
+output_dir: "books"
+chapter_name: "বই"
+repo: https://github.com/mahmudstat/portfolio
+new_session: yes
