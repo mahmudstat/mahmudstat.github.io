@@ -1,7 +1,7 @@
 --- 
 title: "আব্দুল্যাহ আদিল মাহমুদের বইগুলো"
 author: "Abdullah Al Mahmud"
-date: "2021-06-03"
+date: "2021-06-04"
 site: bookdown::bookdown_site
 output:
   bookdown::gitbook:
@@ -21,11 +21,11 @@ description: "আব্দুল্যাহ আদিল মাহমুদে�
 
 এখানে আমার বইগুলোর প্রিভিউ দেওয়া হলো। বইগুলোর বেশিরভাগ অংশ (বিশেষ করে আকর্ষণীয় ও গুরুত্বপূর্ণ অংশ) এখান থেকেই পড়তে পারবেন। 
 
-<img style="float: right; border-radius: 50%;" src="images/rooftop2.1.jpg" width="40%">
-
-I am a **lecturer in statistics** at *Pabna Cadet College*, Pabna, where I joined on 19 October, 2019. Before joining here, I was employed as a research assistant at *EAL*, Dhaka. I also worked as a science contributor for *The Daily Prothom Alo*. 
-
 
 হ্যাপি রিডিং! 
 
 ## আমার পরিচয় {-#me} 
+
+<img style="float: right; border-radius: 50%;" src="images/rooftop2.1.jpg" width="30%">
+
+I am a **lecturer in statistics** at *Pabna Cadet College*, Pabna, where I joined on 19 October, 2019. Before joining here, I was employed as a research assistant at *EAL*, Dhaka. 
