@@ -1,0 +1,54 @@
+---
+title: "About edX"
+author: "Abdullah Al Mahmud"
+date: "\today"
+output:
+  revealjs::revealjs_presentation:
+    theme: sky
+    reveal_plugins:
+    - chalkboard
+    - zoom
+    - menu
+    self_contained: no
+    css: css/styles.css
+    includes:
+      in_header: css/header.html
+  html_document:
+    df_print: paged
+---
+
+# Basic Info
+
+<div class="container">
+<div class="col">
+> - Founded: May, 2012 
+> - Created by: MIT & Harvard University
+> - Users: 24 million (Sep 2020)
+> - Courses: 3,000 courses
+> - Instructors: 6,000 
+> - Countries: 196
+</div>
+<div class="col">
+<img class="plain" src="img/edX.png" width="400">
+</div>
+</div>
+
+## Functionality
+
+> - courses consist of weekly learning sequences
+> - Each sequence is composed of short videos interspersed with interactive learning exercises
+> - Students can immediately practice the concepts from the videos
+
+## Certificates
+
+<div class="container">
+<div class="col">
+<img class="plain" src="img/cert.png" width="400">
+</div>
+<div class="col">
+> - offers certificates of successful completion 
+> - verified courses: students have the option to audit the course (no cost)
+> - Or to work toward an edX Verified Certificate
+> - In some courses the examination is only available to paying students.
+</div>
+</div>
