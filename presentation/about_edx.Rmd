@@ -1,7 +1,7 @@
 ---
 title: "About edX"
 author: "Abdullah Al Mahmud"
-date: "\today"
+date: \today
 output:
   revealjs::revealjs_presentation:
     theme: sky
@@ -21,21 +21,154 @@ output:
 
 <div class="container">
 <div class="col">
+<img class="plain" src="img/edX.png" width="400">
+</div>
+<div class="col">
 > - Founded: May, 2012 
 > - Created by: MIT & Harvard University
 > - Users: 24 million (Sep 2020)
-> - Courses: 3,000 courses
+> - Daily Learners: 599,212 on average
+> - Courses: 3,000+ courses
 > - Instructors: 6,000 
 > - Countries: 196
 </div>
+</div>
+
+# Sitemap
+
+Can be seen [here](https://www.edx.org/sitemap)
+
+## Homepage Menu
+
+<div class="container">
 <div class="col">
-<img class="plain" src="img/edX.png" width="400">
+<img class="plain" src="img/edX_home.png" width="400">
+</div>
+<div class="col">
+In the menu they have 
+
+- Courses
+- Programs
+- Online Master's Degrees
+- Schools & Partners
+- edX for Business 
+</div>
+</div>
+
+## Courses vs Programs
+
+<div class="container">
+<div class="col">
+Programs include
+
+> - MicroBachelor's Program (gives academic credit)
+> - Professional Certificate (Certificate Course-$350-$2000)
+> - Micromaster's Program
+> - Master's Degree
+> - Xseries Program (bundled set of two to seven verified courses in a single subject)
+</div>
+<div class="col">
+
+Courses covering many topics
+
+<img class="plain" src="img/cert.png" width="300">
+
+</div>
+</div>
+
+## Search option
+
+<div class="container">
+<div class="col">
+> - Search bar to find courses
+> - Search by Subject, Partner, Program, Level, Availability, Language
+</div>
+<div class="col">
+<img class="plain" src="img/search.png" width="400">
+</div>
+</div>
+
+# Content Creator/Partners
+
+- Universities
+- Organizations (like Amazon, Amnesty Intl., Google)
+- Complete list is available [here](https://www.edx.org/schools-partners)
+
+# Publicity Process
+
+## Social Networks
+
+> - [Facebook](http://www.facebook.com/EdxOnline)
+> - [Twitter](https://twitter.com/edXOnline)
+> - [LinkedIn](http://www.linkedin.com/company/edx)
+> - [Reddit](http://www.reddit.com/r/edx)
+> - [Blog](https://blog.edx.org)
+
+## Other Methods
+
+
+# Course Pattern
+
+In a course there are
+
+<div class="container">
+<div class="col">
+> - A short overview
+> - Partner name
+> - Start date
+> - How many are enrolled
+> - Enroll now button
+> - Complete syllabus
+</div>
+<div class="col">
+> - Length and effort (per week)
+> - Price (for certificate)
+> - Prerequisites
+> - Instructor Information
+> - FAQs
+</div>
+</div>
+
+## Inside A Course
+
+- Welcome
+- Survey
+- Weekly Quiz/Assignment/Lab
+- Week Review
+- Final Assessment
+- Before YOU Go! (Survey and concluding words)
+
+# Mission & Vision
+
+## Mission
+
+> - Increase access to high-quality education for everyone, everywhere
+> - Enhance teaching and learning on campus and online
+> - Advance teaching and learning through research
+
+# Other Information
+
+## Branches
+
+- Open edX
+- edX for Business (to train and develop company employees)
+
+## Open edX
+
+<div class="container">
+<div class="col">
+> - Open-source platform software developed by edX 
+> - Made freely available to other institutions of higher learning that want to make similar offerings.
+> - Available on [GitHub](https://github.com/edx/edx-platform).
+</div>
+<div class="col">
+<img class="plain" src="img/office.svg" width="500">
 </div>
 </div>
 
 ## Functionality
 
-> - courses consist of weekly learning sequences
+> - Courses consist of weekly learning sequences
 > - Each sequence is composed of short videos interspersed with interactive learning exercises
 > - Students can immediately practice the concepts from the videos
 
@@ -43,12 +176,29 @@ output:
 
 <div class="container">
 <div class="col">
-<img class="plain" src="img/cert.png" width="400">
-</div>
-<div class="col">
-> - offers certificates of successful completion 
-> - verified courses: students have the option to audit the course (no cost)
+<small>
+
+> - Offers certificates of successful completion 
+> - Verified courses: students have the option to audit the course (no cost)
 > - Or to work toward an edX Verified Certificate
 > - In some courses the examination is only available to paying students.
+> - Some courses are credit-eligible
+> - Financial assistance are there for those who can't afford
+
+</small>
+</div>
+<div class="col">
+<img class="plain" src="img/cert.png" width="400">
 </div>
 </div>
+
+## Team
+
+> - Leadership (11 people, including )
+> - Board of Directors (10)
+> - University Advisory Board (15)
+> - Global Leadership Board (11)
+
+## THANK YOU!
+
+<img class="plain" src="img/thanks.png" width="700">
