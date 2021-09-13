@@ -6,7 +6,7 @@ documentclass: book
 biblio-style: apalike
 link-citations: yes
 github-repo: mahmudstat/resume
-description: "About Abdullah Al Mahmud as updated on `r Sys.Date()`"
+description: "About Abdullah Al Mahmud as updated on 2021-09-13"
 ---
 
 # About me {-}
@@ -31,20 +31,24 @@ I am married 💓 to Salma Siddika, also an alumna of University of Dhaka.
 
 All the books are available on [Rokomari.com](https://www.rokomari.com/book/author/47631).
 
-```{r abhot, echo=FALSE, fig.cap = "A Briefer History of Time", fig.align='center', out.width = '60%'}
-knitr:: include_graphics(c("img/books/briefer_history_of_time.jpg"))
-```
+<div class="figure" style="text-align: center">
+<img src="img/books/briefer_history_of_time.jpg" alt="A Briefer History of Time" width="60%" />
+<p class="caption">(\#fig:abhot)A Briefer History of Time</p>
+</div>
 
-```{r ms, echo=FALSE, fig.cap = "Mohabishwer Simana", fig.align='center', out.width = '60%'}
-knitr:: include_graphics(c("img/books/ms.jpg"))
-```
+<div class="figure" style="text-align: center">
+<img src="img/books/ms.jpg" alt="Mohabishwer Simana" width="60%" />
+<p class="caption">(\#fig:ms)Mohabishwer Simana</p>
+</div>
 
-```{r os, echo=FALSE, fig.cap = "Osim Somikorn", fig.align='center', out.width = '60%'}
-knitr:: include_graphics(c("img/books/cover_os.jpg"))
-```
+<div class="figure" style="text-align: center">
+<img src="img/books/cover_os.jpg" alt="Osim Somikorn" width="60%" />
+<p class="caption">(\#fig:os)Osim Somikorn</p>
+</div>
 
-```{r l3m, echo=FALSE, fig.cap = "The Last Three Minutes", fig.align='center', out.width = '60%'}
-knitr:: include_graphics(c("books/images/books/l3m.jpg"))
-```
+<div class="figure" style="text-align: center">
+<img src="books/images/books/l3m.jpg" alt="The Last Three Minutes" width="60%" />
+<p class="caption">(\#fig:l3m)The Last Three Minutes</p>
+</div>
 
 [Buy from Rokomari.com](https://www.rokomari.com/book/author/47631)

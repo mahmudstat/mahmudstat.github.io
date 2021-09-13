@@ -3,14 +3,14 @@ bookdown::gitbook:
   config:
     toc:
       before: |
-        <li><a href="./">আব্দুল্যাহ আদিল মাহমুদের বই</a></li>
+        <li><a href="./">Résumé of Mahmud</a></li>
       after: |
-        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-    edit: https://github.com/mahmudstat/portfolio/edit/master/%s
-    download: ["pdf", "epub"]
+        <li><a href="https://www.thinkermahmud.com/blog" target="blank">Blog</a></li>
+        <li><a href="https://github.com/mahmudstat/resume/blob/main/mahmud_cv_ac_latex.pdf" target="blank">View Résumé</a></li>
+        <li><a href="https://github.com/mahmudstat/resume/raw/main/mahmud_cv_ac_latex.pdf" target="blank">Download Résumé</a></li>
+    edit: https://github.com/mahmudstat/resume/edit/master/%s
 bookdown::pdf_book:
   includes:
-    in_header: 
   latex_engine: xelatex
   citation_package: natbib
   keep_tex: yes
