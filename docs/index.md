@@ -6,7 +6,7 @@ documentclass: book
 biblio-style: apalike
 link-citations: yes
 github-repo: mahmudstat/resume
-description: "About Abdullah Al Mahmud as updated on 2021-09-13"
+description: "About Abdullah Al Mahmud as updated on 2021-09-14"
 ---
 
 # About me {-}

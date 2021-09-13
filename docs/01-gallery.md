@@ -33,6 +33,7 @@
 -  [মহাবিশ্ব](https://sky.bishwo.com):Web portal on astronomy and cosmology
 - [Academic Lectures](https://lecture.statmania.info/pres.html)
 - [R Programming Online](https://rstat.statmania.info/)
+- [Blog](/blog)
 
 # Contact {-}
 

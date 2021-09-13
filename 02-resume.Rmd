@@ -1,7 +1,8 @@
 # Résumé {- #resume}
 
-of *Abdullah Al Mahmud*
+See pdf ([academic](cv/mahmud_cv_ac_latex.pdf), [professional](cv/mahmud_cv_pro_latex.pdf))
 
+<h3>Abdullah Al Mahmud</h3>
 **Lecturer in Statistics, Pabna Cadet College**
 
 ---
