@@ -1,3 +1,5 @@
+# TOEFL Guide 
+
 # Reading
 
 - 3 or 4 reading passages of about 700 words each. 
@@ -235,4 +237,64 @@ Integrated speaking tasks: they require you to combine your English-language ski
 - Find listening and reading material and prep 1-minute response
 - Learn to avoid pauses; use transition words
 
-## Question 3-4
+## Question 3
+
+- Read a passage
+- Listen to a lecture
+- Prep 30 seconds
+- Speak 60 seconds
+
+## Question 4 
+
+- Listen
+- Prep in 20 seconds
+- Speak 60 seconds
+
+### Tips
+
+- Take notes (keywords)
+- If finished before time's up, don't repeat; clarify, develop, or elaborate
+- Practice timing
+- Develop academic vocabulary
+- Read an article and record a summary; transcribe and see other ways to say it
+
+
+# Writing
+
+## Integrated Questions
+
+- Read a passage (3 mins)
+- Listen on same topic (different perspective, ~2 mins, can be heard just once)
+- 20 minutes to type
+- Text reappears when writing
+- No max (but typically 150-225 words)
+- Summarize and relate
+
+### Scoring
+
+- 0-5 marks
+- Accurate development
+- Organization 
+- Language use
+
+### Tips
+
+- Use transitions
+- Avoid redundancy
+- Practice paraphrasing
+- Practice identifying main points from articles/lectures
+- Read 2 articles on same topics and see how they are similar and different
+- Refer to official rubriks from text book
+
+## Independent Questions
+
+- Agree or disagree
+- 30 minutes
+- Minimum 300 words
+- Take a position and use reasons and examples
+- Note reasons and examples
+- 0-5 marks
+
+### Scoring And Tips
+
+Same to Question 1
