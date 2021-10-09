@@ -32,6 +32,12 @@ knitr:: include_graphics("img/pabna_mill.jpg")
 
 # Contact {-}
 
+Scan the QR code below to add my contact details to your phone
+
+```{r qr_contact, echo=FALSE, fig.cap = "Contact Details", fig.align='center', out.width = '60%'}
+knitr:: include_graphics("images/qr_mahmud.png")
+```
+
 **Email:** almahmud.sbi[at]gmail.com
 
 **Facebook:** [mahmud.sbi](https://www.facebook.com/mahmud.sbi)
