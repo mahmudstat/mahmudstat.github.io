@@ -10,6 +10,7 @@ title: TOEFL Guides
 - For each passage, there are 10 multiple-choice questions.
 - Most questions have four choices and a single correct answer. Some questions ask you to select two or more correct answers from a larger group of choices.
 - 54 to 72 minutes to complete the Reading 
+- 18 minutes for each section (10 questions and passage reading)
 - Can return to previous questions to review or change your answers.
 
 ## How to approach
@@ -90,6 +91,12 @@ prose/table - not both in a reading section
 1, if >1, partial
 
 # Listening
+
+- 5 listening passages
+- 3 academic lectures with 6 questions
+- 2 campus conversations with 5 questions
+- 28-39 questions
+- 41-57 minutes
 
 ## Gist Content/Gist-Purpose Questions
 
@@ -176,7 +183,8 @@ Listen to two speakers on same topic and see how they imply
 
 # Speaking
 
-17 minutes
+- 17 minutes
+- 4 tasks 
 
 ## Question 1
 
@@ -264,6 +272,9 @@ Integrated speaking tasks: they require you to combine your English-language ski
 
 
 # Writing
+
+- 50 minutes
+- 2 tasks
 
 ## Integrated Questions
 
