@@ -1,7 +1,9 @@
 ---
 title: Quantiles
-baseurl: "www.thinkermahmud.com"
+description: "Different quantiles names"
 ---
+
+### Quantiles
 
 - The only 2-quantile is called the median
 - The 3-quantiles are called tertiles or terciles → T
