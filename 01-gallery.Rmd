@@ -5,7 +5,7 @@ knitr:: include_graphics(c("img/miu1.JPG"))
 ```
 
 ```{r sangla, echo=FALSE, fig.cap = "Sangla, Kinnaur, Hiamchal Pradesh, India", fig.align='center', out.width = '60%'}
-knitr:: include_graphics("img/sangla.jpg")
+knitr:: include_graphics("img/sangla.JPG")
 ```
 
 ```{r lal, echo=FALSE, fig.cap = "Roaming at Lalmai.", fig.align='center', out.width = '60%'}
@@ -34,7 +34,7 @@ knitr:: include_graphics("img/pabna_mill.jpg")
 
 Scan the QR code below to add my contact details to your phone
 
-```{r qr_contact, echo=FALSE, fig.cap = "Contact Details", fig.align='center', out.width = '60%'}
+```{r echo=FALSE, fig.cap = "Contact Details", fig.align='center', out.width = '60%'}
 knitr:: include_graphics("images/qr_mahmud.png")
 ```
 

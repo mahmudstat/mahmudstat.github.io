@@ -6,7 +6,7 @@
 </div>
 
 <div class="figure" style="text-align: center">
-<img src="img/sangla.jpg" alt="Sangla, Kinnaur, Hiamchal Pradesh, India" width="60%" />
+<img src="img/sangla.JPG" alt="Sangla, Kinnaur, Hiamchal Pradesh, India" width="60%" />
 <p class="caption">(\#fig:sangla)Sangla, Kinnaur, Hiamchal Pradesh, India</p>
 </div>
 
@@ -36,6 +36,13 @@
 - [Blog](/blog)
 
 # Contact {-}
+
+Scan the QR code below to add my contact details to your phone
+
+<div class="figure" style="text-align: center">
+<img src="images/qr_mahmud.png" alt="Contact Details" width="60%" />
+<p class="caption">(\#fig:unnamed-chunk-1)Contact Details</p>
+</div>
 
 **Email:** almahmud.sbi[at]gmail.com
 

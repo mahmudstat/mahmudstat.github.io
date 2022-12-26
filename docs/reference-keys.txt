@@ -1,0 +1,10 @@
+fig:abhot
+fig:ms
+fig:os
+fig:l3m
+fig:miu
+fig:sangla
+fig:lal
+fig:cbil
+fig:mill
+fig:unnamed-chunk-1

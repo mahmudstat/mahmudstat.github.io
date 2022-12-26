@@ -6,14 +6,14 @@ documentclass: book
 biblio-style: apalike
 link-citations: yes
 github-repo: mahmudstat/resume
-description: "About Abdullah Al Mahmud as updated on 2021-09-14"
+description: "About Abdullah Al Mahmud as updated on 2022-12-26"
 ---
 
 # About me {-}
 
 <img style="float: right; border-radius: 50%;" src="img/mahmud.jpg" width="40%">
 
-I am a **lecturer in statistics** at *Pabna Cadet College*, Pabna, where I joined on 19 October, 2019. Before joining here, I was employed as a research assistant at *EAL*, Dhaka. I also worked as a science contributor for *The Daily Prothom Alo*. 
+I am a **lecturer in statistics** at *Sylhet Cadet College*, Sylhet. Earlier I taught statistics at *Pabna Cadet College*. Before joining Cadet College service, I was employed as a research assistant at *EAL*, Dhaka. I also worked as a science contributor for *The Daily Prothom Alo*. 
 
 I have, with the pen name *Abdullah Adil Mahmud (আব্দুল্যাহ আদিল মাহমুদ)*, written **four science books**, which are all available for purchase on [Rokomari.com](https://www.rokomari.com/book/author/47631).
 
