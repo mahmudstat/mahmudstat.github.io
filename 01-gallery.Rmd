@@ -1,7 +1,11 @@
 # Gallery {- #gallery}
 
+## Random Moments {- #random-tours}
+
+<img src="img/gal/gal1.png">
+
 ```{r miu, echo=FALSE, fig.cap = "Lecture At MIU.", fig.align='center', out.width = '60%'}
-knitr:: include_graphics(c("img/miu1.JPG"))
+knitr:: include_graphics("img/miu1.JPG")
 ```
 
 ```{r sangla, echo=FALSE, fig.cap = "Sangla, Kinnaur, Hiamchal Pradesh, India", fig.align='center', out.width = '60%'}

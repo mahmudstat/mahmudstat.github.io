@@ -6,12 +6,12 @@ documentclass: book
 biblio-style: apalike
 link-citations: yes
 github-repo: mahmudstat/resume
-description: "About Abdullah Al Mahmud as updated on 2022-12-26"
+description: "About Abdullah Al Mahmud as updated on 2023-03-04"
 ---
 
 # About me {-}
 
-<img style="float: right; border-radius: 50%;" src="img/mahmud.jpg" width="40%">
+<img style="float: right; border-radius: 50%;" src="img/mahmud.jpg" width="30%">
 
 I am a **lecturer in statistics** at *Sylhet Cadet College*, Sylhet. Earlier I taught statistics at *Pabna Cadet College*. Before joining Cadet College service, I was employed as a research assistant at *EAL*, Dhaka. I also worked as a science contributor for *The Daily Prothom Alo*. 
 

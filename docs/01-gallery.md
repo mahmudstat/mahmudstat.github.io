@@ -1,5 +1,9 @@
 # Gallery {- #gallery}
 
+## Random Moments {- #random-tours}
+
+<img src="img/gal/gal1.png">
+
 <div class="figure" style="text-align: center">
 <img src="img/miu1.JPG" alt="Lecture At MIU." width="60%" />
 <p class="caption">(\#fig:miu)Lecture At MIU.</p>
