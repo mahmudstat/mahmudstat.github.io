@@ -1,6 +1,6 @@
 # Gallery {- #gallery}
 
-## Random Moments {- #random-tours}
+## Random Moments {- #random}
 
 <img src="img/gal/gal1.png">
 
