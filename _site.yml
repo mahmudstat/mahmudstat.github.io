@@ -23,7 +23,7 @@ navbar:
         - text: "---------"
         - text: "Part II"
         - text: "Pro CV"
-          href: CV.pdf
+          href: files/Mahmud_CV_Pro_Latex.pdf
         - text: "Page D"
           href: page-d.html
   right:
