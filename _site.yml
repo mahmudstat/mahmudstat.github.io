@@ -31,7 +31,7 @@ navbar:
         - text: "Download CV"
           href: files/Mahmud_CV_Pro_Latex.pdf  
         - text: "Hobbies"  
-        - href: hobbies.html
+          href: hobbies.html
   right:
     - icon: fa-laptop-code
       href: https://github.com/mahmudstat/portfolio
