@@ -1,33 +1,37 @@
 name: "my-website"
 navbar:
-  title: "My Website"
+  title: "Abdullah Al Mahmud"
   type: inverse
   left:
     - text: "Home"
       icon: fa-home
       href: index.html
-    - text: "About"
-      icon: fa-info
-      href: about.html
+    - text: "Research"
+      icon: fa-code-branch
+      href: research.html      
+#    - text: "About"
+#      icon: fa-info
+#      href: about.html
     - text: "Books"
       icon: fa-book
       href: books.html
+    - text: "Websites"
+      icon: fa-book
+      href: books.html      
     - text: "More"
       icon: fa-gear
       menu:
-        - text: ""
-        - text: "Download Brief CV"
-          href: files/Mahmud_CV_Pro_Latex.pdf
-        - text: "Page B"
-          href: page-b.html
         - text: "---------"
         - text: "Communicate"
         - text: "Facebook"
           href: https://facebook.com/mahmud.sbi
         - text: "Github"
           href: https://github.com/mahmudstat
+        - text: "More on Me"
+        - text: "Download Brief CV"
+          href: files/Mahmud_CV_Pro_Latex.pdf          
   right:
-    - icon: fa-code
+    - icon: fa-laptop-code
       href: https://github.com/mahmudstat/portfolio
 output_dir: "docs"
 output:
