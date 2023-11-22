@@ -15,20 +15,20 @@ navbar:
     - text: "More"
       icon: fa-gear
       menu:
-        - text: "Part I"
-        - text: "Page A"
-          href: page-a.html
+        - text: ""
+        - text: "Download Brief CV"
+          href: files/Mahmud_CV_Pro_Latex.pdf
         - text: "Page B"
           href: page-b.html
         - text: "---------"
-        - text: "Part II"
-        - text: "Pro CV"
-          href: files/Mahmud_CV_Pro_Latex.pdf
-        - text: "Page D"
-          href: page-d.html
+        - text: "Communicate"
+        - text: "Facebook"
+          href: https://facebook.com/mahmud.sbi
+        - text: "Github"
+          href: https://github.com/mahmudstat
   right:
-    - icon: fa-question fa-lg
-      href: #    
+    - icon: fa-code
+      href: https://github.com/mahmudstat/portfolio
 output_dir: "docs"
 output:
   html_document:
