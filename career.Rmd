@@ -1,5 +1,5 @@
 ---
-title: "career"
+title: "Career"
 ---
 
 - 2010: Started Blogging

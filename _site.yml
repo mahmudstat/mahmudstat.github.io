@@ -16,8 +16,8 @@ navbar:
       icon: fa-book
       href: books.html
     - text: "Websites"
-      icon: fa-book
-      href: books.html      
+      icon: fa-globe
+      href: websites.html      
     - text: "More"
       icon: fa-gear
       menu:
