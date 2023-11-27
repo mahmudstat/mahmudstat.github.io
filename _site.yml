@@ -15,6 +15,9 @@ navbar:
     - text: "Books"
       icon: fa-book
       href: books.html
+    - text: "Career"
+      icon: fa-tasks
+      href: career.html      
     - text: "Websites"
       icon: fa-globe
       href: websites.html      
