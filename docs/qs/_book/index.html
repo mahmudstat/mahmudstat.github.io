@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.53">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="জিম ব্যাগট, আব্দুল্যাহ আদিল মাহমুদ (অনুবাদক)">
+<meta name="dcterms.date" content="2026-02-01">
+
+<title>কোয়ান্টাম স্পেস</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./intro.html" rel="next">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">ভূমিকা</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">কোয়ান্টাম স্পেস</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">ভূমিকা</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">আসলেই কি বর্তমানে মতো কোনো সময় নেই?</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#ভমক" id="toc-ভমক" class="nav-link active" data-scroll-target="#ভমক">ভূমিকা</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">কোয়ান্টাম স্পেস</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>জিম ব্যাগট, আব্দুল্যাহ আদিল মাহমুদ (অনুবাদক) </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">February 1, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="ভমক" class="level1 unnumbered">
+<h1 class="unnumbered">ভূমিকা</h1>
+<p>একটি কথা খোলাখুলি বলে রাখি।</p>
+<p>এ বইটার আলোচ্যবিষয় লুপ কোয়ান্টাম গ্র্যাভিটি। মহাকর্ষের কোয়ান্টাম তত্ত্ব তৈরির সমসাময়িক বেশ কিছু প্রচেষ্টার একটি এটি। স্থান, কাল ও ভৌত মহাবিশ্ব সম্পর্কে আমাদের বর্তমান জ্ঞানের একদম শেষ সীমানায় এর অবস্থান। হয়তো আশা করবেন, জ্ঞানের প্রান্তসীমার এ বিজ্ঞান পড়তে উপভোগ্য হবে। কিন্তু ভুল বুঝবেন না। এ ধরনের অন্যসব তত্ত্বের মতোই এর অবস্থা। এর সপক্ষে এখনও কোনো পর্যবেক্ষণ বা পরীক্ষামূলক প্রমাণ পাওয়া যায়নি১।</p>
+<p>তাহলে হয়তো ভাবছেন, আমার কেন মনে হলো আপনারা এ বই পড়তে আগ্রহী হবেন।</p>
+<p>বলছি। নিশ্চয়ই মানবেন, একবিংশ শতকের প্রথম কয়েক দশকে আমরা বড় কিছু অর্থনৈতিক, রাজনৈতিক ও পরিবেশগত চ্যালেঞ্জের মুখে পড়েছি। কোনোটা কারও চেয়ে কম ভয়াবহ নয়। তবে স্থান-কালের প্রকৃতি ও ভৌত বাস্তবতার কাঠামো বোঝার ক্ষেত্রে আমাদের সময়ের সবচেয়ে বড় সমস্যা হলো মহাকর্ষের কোয়ান্টাম তত্ত্ব২। এটি অস্তিত্বের চূড়ান্ত বড় প্রশ্ন নিয়ে কাজ করে। এ সমস্যার সমাধান করতে হলে প্রয়োজন সুগভীর বৈজ্ঞানিক দক্ষতা। এর জন্য প্রয়োজন অন্তর্জ্ঞান ও অনুপ্রেরণার অনন্য মুহূর্ত। প্রয়োজন বুদ্ধিবৃত্তিক সৃজনশীলতা। যা সম্ভবত পদার্থবিদ্যার পুরো ইতিহাসও দেখেনি।</p>
+<p>কারণটা সোজা। বর্তমানে আমাদের হাতে আছে দুটি অসাধারণ সফল তত্ত্ব। প্রথমটি হলো অ্যালবার্ট আইনস্টাইনের আপেক্ষিকতার সার্বিক তত্ত্ব। এটি বক্র স্থান-কালে বস্তুর বড় কাঠামোর আচরণ ব্যাখ্যা করে। বলে, কীভাবে কাজ করে মহাকর্ষ। বস্তু স্থান-কালকে বলে দেয় কীভাবে বাঁকতে হবে। আর বক্র স্থান-কাল বস্তুকে বলে দেয়, কীভাবে চলতে হবে। তথাকথিত বিগ ব্যাং কসমোলজির স্ট্যান্ডার্ড মডলের ভিত্তি এ তত্ত্ব। এ তত্ত্ব ব্যবহার করে মহাবিশ্বের একদম প্রায় ‘শুরুর সময়’ থেকে মহাবিশ্বের ক্রমবিকাশ ব্যাখ্যা করি আমরা। বর্তমান প্রমাণ অনুসারে, ১৩৮০ কোটি বছর আগে শুরু যে সময়ের। যুক্তরাষ্ট্রের লাইগো (ও বর্তমানে ইটালির ভার্গো) পর্যবেক্ষণকেন্দ্রে শনাক্ত হয় মহাকর্ষ তরঙ্গ। যা তত্ত্বটির সাফল্যের মুকুটে আরেকটি পালক।</p>
+<p>আরেকটি তত্ত্বের নাম কোয়ান্টাম গতিবিদ্যা। এ তত্ত্বের কাজ হলো, সবচেয়ে ক্ষুদ্র কাঠামোয় বস্তু ও বিকিরণের বৈশিষ্ট্য ও আচরণ ব্যাখ্যা করা। এটি কাজ করে আণবিক, পারমাণবিক, অতিপারমাণবিক ও অতিনিউক্লীয় স্তরে। কোয়ান্টাম ক্ষেত্র তত্ত্ব রূপে এ তত্ত্বই কণাপদার্থবিদ্যার তথাকথিত স্ট্যান্ডার্ড মডেলের ভিত্তি। কোয়ার্ক ও ইলেকট্রন এবং ফোটনের মতো বলবাহী কণা দিয়ে মহাবিশ্বের দৃশ্যমান সব বস্তুর (নক্ষত্র, গ্রহ ও আমরাসহ) গঠনের ব্যাখ্যা দেয় মডেলটি। এটি বলে দেয়, প্রকৃতির অন্য তিনটি বল কীভাবে কাজ করে। এগুলো হলো তড়িচ্চুম্বকীয় বল, সবল বল ও দুর্বল মিথস্ক্রিয়া। জেনেভার সার্ন গবেষণাগারে হিগস বোসন কণার আবিষ্কার তত্ত্বটির সাম্প্রতিক এক সাফল্য। এমন আরও বহু সাফল্যের দেখা পেয়েছে এ তত্ত্ব।</p>
+<p>দুটি তত্ত্বই অত্যন্ত সফল। মহান এক বুদ্ধিবৃত্তিক অর্জন। কিন্তু দুই তত্ত্বেই কিছু দুর্বলতা। এদের ব্যাখ্যার উর্ধ্বে রয়ে গেছে বহু জিনিস। অনেক গুরুত্বপূর্ণ প্রশ্নের উত্তর পাওয়া বাকি। এদের সফলতা যেন মহাবিশ্বকে পুরোদস্তুর অদ্ভুত না হলেও আরও রহস্যময়য় করে তুলেছে। আমরা যতই জানছি, ততই যেন কম বুঝতে পারছি।</p>
+<p>তত্ত্ব দুটি আবার মৌলিকভাবে একে অপরে বিরোধী। আইজ্যাক নিউটনের চিরায়ত গতিবিদ্যায় বস্তু ও ঘটনার ‘আধার’ হলো পরম স্থান ও কাল। এটা কীভাবে যেন পটভূমিতে বসে আছে। নিউটনের মহাবিশ্ব থেকে সবকিছুকে বের করে নিলেও ফাঁকা আধার পড়ে থাকবে। আইনস্টাইনের মহাবিশ্বে স্থান-কাল পরম নয়, আপেক্ষিক। আর তত্ত্বকে বলা হয় পটভূমি থেকে স্বাধীন। স্থান-কাল গতিশীল। বস্তু ও শক্তির ভৌত মিথস্ক্রিয়ার মাধ্যমে স্থান-কালের উৎপত্তি।</p>
+<p>অন্যদিকে কোয়ান্টাম গতিবিদ্যা দেখতে ভয়ঙ্কর রকম উদ্ভট হলেও এর পূর্বাভাসগুলো বাস্তব ঘটনার সাথে নিখুঁতভাবে মিলে গেছে। তত্ত্বটার সূত্রায়ন হয়েছে একটু ভিন্নভাবে। বস্তু ও বিকিরণের মৌলিক কণাদের মিথস্ক্রিয়া একেবারে পরম স্থান-কালের আধারের মধ্যে হয় বলে ধরে নেওয়া হয়। যে আধারের ধারণা সার্বিক আপেক্ষিকতা বাতিল করে দিতে চায়। কোয়ান্টাম গতিবিদ্যা পটভূমি-নির্ভর।</p>
+<p>তত্ত্ব দুটি এমনই। আমরা পেয়েছি স্থান-কালের একটি চিরায়ত (নন-কোয়ান্টাম) তত্ত্ব। পটভূমির ওপর এটা নির্ভর করে না। আবার পেয়েছি বস্তু ও বিকিরণের একটি কোয়ান্টাম তত্ত্ব। এটা নির্ভর করে পটভূমির ওপর। আমাদের পদার্থবিদ্যার সবচেয়ে সফল দুই তত্ত্ব স্থান-কালের পরস্পরবিরোধী ধারণা দিয়ে নির্মিত হয়েছে। ভিন্ন ধরনের কাঠামো দিয়ে গড়া এরা। একটি পদার্থবিদ্যার সাথে সাথেই তৈরি (সহ-উৎপন্ন) হয়। আরেকটি পূর্বানুমিত ও পরম।</p>
+<p>দুই তত্ত্ব দেয় দুই বিরোধপূর্ণ ব্যাখ্যা। কিন্তু এখন পর্যন্ত যতটা জানি (ও যতটা প্রমাণ পেয়েছি), আমাদের সবসময় একটাই মহাবিশ্ব ছিল। এটা একটি সমস্যার জন্ম দেয়। কারণ আমরা এটাও জানি, বিগ ব্যাংয়ের মাধ্যমে জন্মের পরবর্তী প্রথম কিছু মুহূর্তে মহাবিশ্বের অস্তিত্ব ছিল কোয়ান্টাম স্কেলে। ফলে এ সময় কোয়ান্টাম গতিবিদ্যার সূত্র রাজত্ব করেছিল। মহাবিশ্বের সূচনা বা প্রাথমিক মুহূর্তগুলোর ব্যাখ্যা আমরা জানি না। ব্যাপারটা হয়ত আপনাকে খুব একটা ভাবাবে না। তবে গত প্রায় একশ বছরের পদার্থবিজ্ঞানের ইতিহাস আমাদেরকে আরও বড় স্বপ্ন দেখতে অনুপ্রাণিত করেছে। আমাদের প্রয়োজন মহাকর্ষের একটি কোয়ান্টাম তত্ত্ব।</p>
+<p>এবার কি আমি আপানদের মনোযোগ আকর্ষণ করতে পেরেছি?</p>
+<p>চীনের দার্শনিক লাউজি বলেছিলেন, হাজার মাইলের ভ্রমণ শুরু হয় একটিমাত্র পদক্ষেপ দিয়ে। প্রথমেই আমাদেরকে একটি বিষয় স্বীকার করে নিতে হবে। আর তা হলো কোয়ান্টাম গতিবিদ্যা ও সার্বিক আপেক্ষিকতাকে জোড়া দিতে হলে দরকার নতুন কাঠামো। স্থান ও কালের নতুন ধরনের ধারণা। যে ধারণা পদার্থবিদ্যার বড় বা ছোট যেকোনো কাঠামোয় কাজ করবে।</p>
+<p>ফলে নতুন ধরনের একটি উদ্দেশ্য আমাদের দায়িত্বের অংশ হয়ে গেছে। এখন আমাদেরকে ঠিক করতে হবে, আমরা কোন পথে যাব। আমরা কি কোয়ান্টাম গতিবিদ্যার পূর্বানুমিত পরম স্থান-কালের কাঠামোর দিকে হাঁটব? নাকি সার্বিক আপেক্ষিকতার সহ-উৎপাদিত কাঠামো গ্রহণ করব?</p>
+<p>গত প্রায় চল্লিশ বছর ধরে এ দুই পথের ভাবনা তাত্ত্বিক পদার্থবিদদেরকে বিভক্ত করে গোত্রীয় কলহের দিকে নিয়ে গেছে। মহাকর্ষের কোয়ান্টাম তত্ত্ব তৈরিতে সবগুলো পথের মধ্যে সম্পর্কগুলো তুলে ধরার সাম্প্রতিক এক প্রচেষ্টায় এ বিভেদের বহিঃপ্রকাশ স্পষ্ট দেখা গেছে। দুটি স্বতন্ত্র মৌলিক শাখা হলো লুপ কোয়ান্টাম গ্র্যাভিটি ও স্ট্রিং তত্ত্ব। এ বিভেদ আপেক্ষিকতাবাদী ও কণাপদার্থবিদদের মধ্যে নিছক মতপার্থক্যের ফল নয়৩। বরং দুই দলই হরহামেশা সার্বিক আপেক্ষিকতা ও কোয়ান্টাম ক্ষেত্র থেকে ভাবনা ও কৌশল ধার করেন।</p>
+<p>তবে এটা সত্য, তাত্ত্বিক পদার্থবিজ্ঞানীদের মধ্যে বেশিরভাগই কণাতাত্ত্বিকরা বেশি প্রভাবশালী। আর কণাতাত্ত্বিকরা স্ট্রিং তত্ত্বকে বেশি পছন্দ করেন। গত বিশ বছর ধরে তাঁরা সফলভাবে তত্ত্বটাকে সাধারণ মানুষের কাছে তুলে ধরেছেন। এর ফলে খুব কম পাঠকই জানেন, এমন সম্ভাব্য তত্ত্ব আরেকটিও আছে। উন্মুক্ত আছে একটার বেশি পথ। মহাকর্ষ নিয়ে লেখা সাম্প্রতিক এক জনপ্রিয় বইয়ে লুপ কোয়ান্টাম গ্র্যাভিটির বর্ণনা খুব সংক্ষিপ্ত আকারে এসেছে। তাও সেটা লেখা হয়েছে পাদটীকায়৪। এর পেছনে সব ধরনের কারণই কাজ করছে। এর মধ্যে কয়েকটি আমি আলোচনা করব।</p>
+<p>এ বইটা সে অন্য পথ নিয়ে, যে পথে মানুষ কম হেঁটেছে। এর শুরু সার্বিক আপক্ষিকতা দিয়ে। ধার করে কোয়ান্টাম বর্ণগতিবিদ্যার (quantum chromodynamics) ধারণা । এখান থেকে প্রাপ্ত ফলাফলকে মহাকর্ষের কোয়ান্টাম ক্ষেত্র তত্ত্বে রূপান্তরিত করার পথ খোঁজে। গন্তব্যে গিয়ে আমরা পাই নতুন এক কাঠামো। স্থান যেখানে অবিচ্ছন্ন (continuous) নয়, বরং কোয়ান্টায়িত। বস্তু ও বিকিরণের মতোই এটি খণ্ডায়িত। এ কাঠামো মহাকর্ষীয় বলের লুপগুলোকে পরস্পরের সাথে গেঁথে দেয়। তৈরি হয় স্পিন নেটওয়ার্ক। এ লুপগুলোর আকার-আকৃতির মৌলিক সীমা আছে। এ সীমাই স্থানের ক্ষেত্রফল ও আয়তনের কোয়ান্টা ঠিক করে দেয়। যা পরিমাপ করা হয় প্ল্যাঙ্ক দৈর্ঘ্যের মাধ্যমে। প্ল্যাঙ্ক দৈর্ঘ্য ১.৬ × ১০-৩৩ মিটার। যা প্রোটনের ব্যাসের দশ লক্ষ-কোটি-কোটি ভাগের এক ভাগের সমান।</p>
+<p>ভিন্ন ভিন্ন স্পিন নেটওয়ার্ক লুপগুলোকে ভিন্ন ভিন্নভাবে জোড়া দেয়। স্থানের আকার-আকৃতির ভিন্ন ভিন্ন কোয়ান্টা অবস্থাও এভাবে তৈরি হয়। স্পিন নেটওয়ার্কের বিবর্তন (এক আকৃতির সঙ্গে অন্য আকৃতির পরিবর্তনশীল সম্পর্ক) থেকে জন্ম হয় স্পিনফোমের। সুপারপজিশন নামে একটি জিনিসের মধ্যে স্পিনফোমের সংযোজোনের মাধ্যমে উদীয়মান স্থান-কালের ব্যাখ্যা পাওয়া যায়। স্থান-কালের এ কাঠামো কোয়ান্টাম পদার্থবিদ্যার সাথে সহ-উৎপন্ন হয়। (পরিমাপ করার আগ পর্যন্ত একই সময়ে একটি কোয়ান্টাম সিস্টেম বহু অবস্থায় থাকতে পারে। এরই নাম সুপারপজিশন।)</p>
+<p>সংক্ষেপে এটাই লুপ কোয়ান্টাম গ্র্যাভিটি বা এলকিউজি। বর্তমানে (২০১৮ সালে এ বই লেখার সময়) এর বয়স ৩০ বছর। বর্তমানে সারা বিশ্বের ত্রিশটি গবেষণা দল আগ্রহের বস্তু এটি। আপেক্ষিকতা তত্ত্ব থেকে এখানে আসা সহজ ছিল না। পাড়ি দিতে হয়েছে চড়াই-উৎরাই। সামনে অনেক বাধা আছে এখনও। তার ওপর তত্ত্বটির গ্রহণযোগ্যতা পরীক্ষা করার উপায় বের করতে হবে। (পরীক্ষাযোগ্য না হলে কোনো তত্ত্বই বিজ্ঞানের অংশ হয়ে ওঠে না। থেকে যায় দর্শন।) এলকিউজির অন্যতম প্রধান প্রতিষ্ঠাতা কার্লো রোভেলি। তিনি কিছুদিন আগে বলেন, “কোয়ান্টাম গ্র্যাভিটির অবস্থা বিশ বছর আগের চেয়ে অনেক ভাল। প্রতি দুই দিনে একদিন আমি এটা নিয়ে আশাবাদী থাকি।” ৫</p>
+<p>জনপ্রিয় বিজ্ঞানর পাঠকরা হয়তো লি স্মোলিনের কাছে এলকিউজি সম্পর্কে শুনেছেন। তিনি তত্ত্বটির আরেকজন প্রধান স্থপতি। ২০০০ সালে প্রকাশিত হয় তাঁর বই থ্রি রোডস টু কোয়ান্টাম গ্র্যাভিটি। পরবর্তীতে প্রকাশিত হয় আরেকটি বই দ্য ট্রাবল উইথ ফিজিক্স। এখানেও তিনি সংক্ষেপে এলকিউজি নিয়ে আলোচনা করেন। সম্প্রতি প্রকাশিত টাইম রিবর্ন বইয়েও তা করেন। রোভেলির সেভেন ব্রিফ লেসনস অন্য ফিজিক্স নামের বেস্ট-সেলিং বইয়েও এলকিউজির উল্লেখ আছে। সম্প্রতি প্রকাশিত রিয়েলিটি ইজ নট হোয়াট ইট সিমস বইয়েও তিনি এ আলোচনা করেছেন।</p>
+<p>কোয়ান্টাম স্পেস বইটার উদ্দেশ্য হলো মানুষের ধারণায় ভারসাম্য তৈরি করা। আমি আপনাদের দেখাতে চাই, এলকিউজি শুধুই ভাল একটি তত্ত্ব নয়, এটি স্ট্রিং তত্ত্বের প্রকৃত ও বিশ্বাসযোগ্য একটি বিকল্প। কাজটা করতে গিয়ে আমি তত্ত্বটি সম্পর্কে স্মোলিন ও রোভেলি এ পর্যন্ত তাঁদের বইয়ে যা বেলছেন তার চেয়ে একটু বেশি তুলে ধরতে চাই। আমি আপনাদের বলতে চাই, এলকিউজি স্থান, কাল ও মহাবিশ্ব সম্পর্কে কী বলে। পাশাপাশি বলে দিতে চাই কেন ও কীভাবে তা বলে।</p>
+<p>এ বইটি নিয়ে কাজ করতে ও লিখতে গিয়ে আমি স্মোলিন ও রোভেলি দুজনের কাছ থেকেই উল্লেখযোগ্য উৎসাহ, সমর্থন ও জ্ঞানের আলো পেয়ে ধন্য হয়েছি। এ বইটি আসলে তাঁদেরই গল্প। তবে আরও দুটি কথা খোলাখুলি বলে রাখি। বহু তাত্ত্বিকের বহু বছরের প্রচেষ্টার ফসল এলকিউজি। এ প্রচেষ্টাগুলো সম্পর্কে আমি সাধারণ মানুষের বোধগম্য করে যতটা সম্ভব বলে গিয়েছি। কারও অবদানের কথা সঠিকভাবে না উল্লেখ করা হলে বা উপেক্ষা করা হলে আমি আগেই ক্ষমা চেয়ে নিচ্ছি। এই বইটি মূলত তত্ত্বের প্রধান দুই ব্যক্তির কাজ নিয়ে লেখা। ফলে এলকিউজির নামে যত কাজ হয়েছে তার সবকিছুর সারমর্মও এতে পাওয়া যাবে না৬।</p>
+<p>বইটি তিন অংশে বিভক্ত। প্রথম ভাগ দৃশ্যপট তৈরি করে। তরুণ ছাত্র অবস্থায় ও পরবর্তীতে পরিপক্ব তাত্ত্বিক হিসবে স্মোলিন ও রোভেলি আপেক্ষিকতা, কোয়ান্টাম গতিবিদ্যা ও বিগ ব্যাং কসমোলজি সম্পর্কে যা যা জেনেছেন সে সম্পর্কে বলেছি এখানে। এগুলো আগে থেকেই জানলে না পড়েই সামনে এগিয়ে যেতে পারেন (তবে আমি আশা করব, পড়বেন)। দ্বিতীয় অংশে আছে এলকিউজির জন্ম ও বিবর্তনের গল্প। শুরুতেই আছে ১৯৫০-এর দশকের গল্প। যখন আপেক্ষিকতা ও কোয়ান্টাম গতিবিদ্যাকে একত্র করার প্রচেষ্টা চালানো হয়েছিল। এরপর আলোচনা হয়েছে অভয় অস্টকারের নতুন চলক আবিষ্কার। পরে এসেছে অস্টকার, স্মোলিন ও রোভেলির (ও আরও অনেকের) সমন্বিত কাজের গল্প। যে কাজের ফসল হিসেবে ক্ষেত্রফল ও আয়তনের কোয়ান্টা পাওয়া যায়। আর গত শতকের শেষ দিকে পাওয়া যায় স্পিনফোমের রীতিনীতি। তৃতীয় ভাগে যুক্তিসঙ্গত আলোচনা এসেছে সাম্প্রতিক সময় পর্যন্ত। এলকিউজি, কোয়ান্টাম কসমোলজির ইঙ্গিত ও ব্ল্যাকহোলের বৈশিষ্ট্য ব্যবহার করে পরিচিত ভৌত রাশিগুলোর হিসাব-নিকাশের সারমর্ম তুলে ধরা হয়েছে এখানে। এ অংশে আমরা কোয়ান্টাম গতিবিদ্যার ব্যাখ্যা ও সময় (তা নাহলে) বাস্তবতা নিয়েও আলোকপাত করব।</p>
+<p>শেষ আরেকটা বিষয় খোলাখুলি বলি। স্ট্রিং বা এম-তত্ত্বের মতোই এলকিউজি এখনও চলমান একটি কাজ। কাজ শেষ হয়নি। সবগুলো প্রশ্নের উত্তর এখনও পাওয়া যায়নি। স্মোলিন ও রোভেলি অবশ্যই উৎসাহী। প্রভাবিত না হওয়ার চেষ্টা করলেও আমার শব্দচয়নে তাঁদের উৎসাহের প্রতিফলন দেখা যাবে। তবে আবেগে ভেসে যাওয়া যাবে না। অনেক তাত্ত্বিক কাজ করতে করতে মাঝপথে এসে আস্থা হারিয়ে ফেলেছেন। ১৯৯০-এর দশকের সে আশা হারিয়ে গেছে। তাঁরা এখন সতর্কভাবে (ও নিরানন্দ মনে) মূল্যায়ন করেন। কেউ কেউ তো এ শাখায় কাজ করাই পুরোপুরি বাদ দিয়েছেন। মেতেছেন অন্য সমস্যা নিয়ে। আশা করি পাঠক অন্তত কিছুটা হলেও চ্যালঞ্জটার ব্যপকতা উপলব্ধি করবেন। কোয়ান্টাম মহাকর্ষ তত্ত্বের পেছনে ছুটতে হলে অবশ্যই দুঃসাহসী হতে হবে। বইটা শেষ হয় স্মোলিন, রোভেলি ও আমার মধ্যে ত্রিমুখী আলাপের মধ্য দিয়ে। এ আলোচনায় আছে সাম্প্রতিক ইতিহাস ও ভবিষ্যতের গতিপ্রকৃতি।</p>
+<p>অনেক বড় জুয়া। বিজ্ঞানের কিছু বড় বড় বিপ্লব আমাদের বাস্তবতাকে বুঝতে চাওয়ার পদ্ধতি গড়ে দিয়েছে। স্থান, কাল ও মহাবিশ্ব সম্পর্কে আমূল বদলে গেছে আমাদের চিন্তার ধরন। লি ও কার্লো তাঁদের গল্পগুলো আস্থাভরে আমার কাছে না বললে এ বইটা লেখা হত না। অতএব, তাঁদের অবদান স্বীকার করতে পেরে নিজেকে ধন্য মনে করছি। পাণ্ডুলিপি প্রস্তুত করার সময়ও তাঁরা দেখে দিয়েছেন। সঠিক পথ দেখিয়ে দিয়েছেন। ভুল করলে ঠিক করে দিয়েছেন। এরপরেও বলতে হবে, এ বইয়ে ব্যক্ত মত একান্তই আমার। লি ও কার্লো বইয়ের বেশিরভাগ কথার সাথেই একমত হবেন। তবে সবকিছুই মেনে নেবেন বলে ধরে নেওয়ার সুযোগ নেই।</p>
+<p>লি ও কার্লোর পাশাপাশি আরও অনেক বিজ্ঞানীর প্রতি আমি কৃতজ্ঞ। মূল্যবান সময় খরচ করে তাঁরা পাণ্ডুলিপি পড়ে দিয়েছেন। কিছু ভুলব্যাখ্যা ও ভুল বক্তব্য ঠিক করে দিয়েছেন। নিজেদের কিছু চিন্তাধারা যোগ করেছেন। এসব বিজ্ঞানীর মধ্যে অন্যতম হলেন, পেনসিলভ্যানিয়া স্টেট ইউনিভার্সিটির অভয় অস্টকার; ইউনিভার্সিটি অব ক্যালিফোর্নিয়া, রিভারসাইড-এর জন ব্যাজ, পেনসিলভ্যানিয়া স্টেট ইউনিভার্সিটির মার্টিন বোজোওয়াল্ড, মেক্সিকোর ন্যাশনাল অটোনোমাস ইউনিভার্সিটির আলেহান্দ্রো করিচি, ইউনিভার্সিটি অফ কেপ টাউন-এর জর্জ এলিস, ইউনিভার্সিটি অব মেরিল্যান্ড-এর টেড জ্যাকবসন, ইউনিভার্সিটি অব নটিংহামের কিরিল ক্রাসনভ, লুইজিয়ানা স্টেট ইউনিভার্সিটির জর্জ পুলিন ও কলাম্বিয়া ইউনিভার্সিটির পিটার ওইট।</p>
+<p>মনে রাখতে হবে, এলকিউজি এখনও অনেকটা অসম্পূর্ণ। ফলে তত্ত্বটা তৈরির সাথে নিবিড়ভাবে যুক্ত থেকেও এর অনেকগুলো উন্মুক্ত প্রশ্নের সাথে সবাই একমত নন। বিষয়বস্তুটাই এমন, এর সবকিছু নিয়ে প্রশ্ন তোলা যায়। তাই সঙ্গতিপূর্ণ ও বোধগম্য আলোচনা করতে গিয়ে বিষয়বস্তু নিয়েছি বেছে বেছে। আমি নিশ্চিত, কাজটা সবসময় ঠিকভাবে করতে পারিনি। অবশিষ্ট ভুলগুলোর জন্য দায় আমি হাসিমুখেই নিচ্ছি।</p>
+<p>আমি আরও একবার কৃতজ্ঞতা স্বীকার করছি ল্যাথা মেননের প্রতি। অক্সফোর্ড ইউনিভার্সিটি প্রেসে তিনি আমার সম্পাদক হিসেবে কাজ করেছেন। এছাড়াও জেনি নুগির প্রতি কৃতজ্ঞ আমি। যিনি এ বইটি বের করতে কাজ করেছেন পর্দার অন্তরালে থেকে। এ মানুষগুলোর অবদান ছাড়া বইটার মান আরও খারাপ হত।</p>
+<p>শুরু করি তাহলে?</p>
+<p>জিম ব্যাগট জুলাই, ২০১৮</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./intro.html" class="pagination-link" aria-label="আসলেই কি বর্তমানে মতো কোনো সময় নেই?">
+        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">আসলেই কি বর্তমানে মতো কোনো সময় নেই?</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

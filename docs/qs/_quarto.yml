@@ -1,0 +1,22 @@
+project:
+  type: book
+
+book:
+  title: "কোয়ান্টাম স্পেস"
+  author: "জিম ব্যাগট, আব্দুল্যাহ আদিল মাহমুদ (অনুবাদক)"
+  date: "2/1/2026"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
