@@ -10,10 +10,16 @@ book:
   date: "2/1/2026"
   chapters:
     - index.qmd
-    - intro.qmd
+    - 1-same-law.qmd
+    - 10-no-time-like-present.qmd
     - references.qmd
+  appendices:
+    - about-lqg.qmd
 
 bibliography: references.bib
+
+crossref:
+  appendix-title: "পরিশিষ্ট"
 
 format:
   html:
