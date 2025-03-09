@@ -1,0 +1,23 @@
+project:
+  type: book
+  output-dir: "."
+
+book:
+  title: "জিরো: দ্য বায়োগ্রাফি অব অ্যা ড্যাঞ্জারাস আইডিয়া "
+  author: "চার্লস সিফ, আব্দুল্যাহ আদিল মাহমুদ (অনুবাদক)"
+  date: "12/1/2024"
+  cover-image: zero.jpg
+  page-navigation: true
+  chapters:
+    - index.qmd
+    - doing-nothing.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+
+
+
+
