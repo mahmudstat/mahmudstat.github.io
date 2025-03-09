@@ -30,11 +30,31 @@
     ]
   },
   {
-    "objectID": "intro.html#লখক-পরচত",
-    "href": "intro.html#লখক-পরচত",
+    "objectID": "intro.html#author",
+    "href": "intro.html#author",
     "title": "বই পরিচিতি",
     "section": "লেখক পরিচিতি",
     "text": "লেখক পরিচিতি\nএখানে দেখুন",
+    "crumbs": [
+      "বই পরিচিতি"
+    ]
+  },
+  {
+    "objectID": "intro.html#review",
+    "href": "intro.html#review",
+    "title": "বই পরিচিতি",
+    "section": "বই রিভিউ",
+    "text": "বই রিভিউ\n\nকাজী আকাশ, শূন্য ও শূন্যতার রহস্যময়তার গভীরে, বিজ্ঞানচিন্তা অনলাইন, ০৯ ফেব্রুয়ারি ২০২৫",
+    "crumbs": [
+      "বই পরিচিতি"
+    ]
+  },
+  {
+    "objectID": "intro.html#to-buy",
+    "href": "intro.html#to-buy",
+    "title": "বই পরিচিতি",
+    "section": "কিনবেন কীভাবে?",
+    "text": "কিনবেন কীভাবে?\n\nপ্রথমা ডট কম\nরকমারি ডট কম",
     "crumbs": [
       "বই পরিচিতি"
     ]
