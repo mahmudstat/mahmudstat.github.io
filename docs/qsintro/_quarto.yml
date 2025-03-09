@@ -1,0 +1,26 @@
+project:
+  type: book
+  output-dir: "."
+
+book:
+  title: "কোয়ান্টাম থিওরি: অ্যা ভেরি শর্ট ইন্ট্রোডাকশন "
+  author: "আব্দুল্যাহ আদিল মাহমুদ "
+  date: "1/1/2026"
+  cover-image: quantum.jpg
+  chapters:
+    - index.qmd
+    - 1-cracks.qmd
+    - 2-light.qmd
+    - 3-perplexities.qmd
+    - 4-further-dev.qmd
+    - 5-togetherness.qmd
+    - 6-lessons.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+
+
+

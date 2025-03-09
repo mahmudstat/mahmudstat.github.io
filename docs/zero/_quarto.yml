@@ -9,6 +9,7 @@ book:
   cover-image: zero.jpg
   page-navigation: true
   chapters:
+    - intro.qmd
     - index.qmd
     - doing-nothing.qmd
 
