@@ -1,0 +1,47 @@
+project:
+  type: website
+  output-dir: ../
+
+website:
+  title: "Thinker Mahmud"
+  repo-url: https://github.com/mahmudstat/mahmudstat.github.io
+  repo-actions: [edit, source, issue]
+  bread-crumbs: true
+  navbar:
+    tools:
+      - icon: facebook
+        href: https://facebook.com/mahmud.sbi
+      - icon: github
+        href: https://github.com/mahmudstat
+    left:
+      - href: index.qmd
+        text: Home
+        icon: house-fill
+      - href: books.qmd
+        text: Books
+        icon: book
+      - href: research.qmd
+        text: Reserach
+        icon: binoculars
+      - href: career.qmd
+        text: Career
+        icon: list-ul
+      - href: websites.qmd
+        text: Websites
+        icon: globe2
+      - href: about.qmd
+        text: About
+        icon: command
+
+  sidebar:
+    style: "docked"
+  page-footer: "Copyright 2025, Abdullah Al Mahmud"
+
+format:
+  html:
+    theme: superhero
+    css: styles.css
+    toc: true
+
+
+

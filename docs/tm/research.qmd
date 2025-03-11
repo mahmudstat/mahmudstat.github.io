@@ -1,0 +1,32 @@
+---
+title: "Research"
+---
+
+My current focus is on dveleoping several `R` packages. The most prominent two
+are:
+
+a. [`clockplot`](https://www.thinkermahmud.com/clockplot/): plot event times on a
+  24-hour clock
+b. [`convmoment`](https://www.thinkermahmud.com/convmoment/): converts moments 
+  of a distribution to and from central and raw ones
+
+### Conference Presentations
+
+- Mahmud, A, A and Rahman, M, M. Goodness of fit for uniform distribution: Benford’s law
+method. National Conference on Applications of Statistics on Sustainable Development Goals,
+MBSTU-2018, 24 September 2018. ID: TS3-11, Tangail, Bangladesh.
+
+### Published Papers
+
+- Mahmud, A, A . 2020. Testing of Compliance of Benford’s Law with Disaster Death Tolls. Cadet College Journal.
+
+## Ongoing Works
+
+**Among others**
+
+- Induced Seismicity
+- Clockplot R package
+- Moment Conversion
+- Natural Randomness
+- Negative Probability
+- Accident Modelling
