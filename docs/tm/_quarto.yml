@@ -4,8 +4,7 @@ project:
 
 website:
   title: "Thinker Mahmud"
-  repo-url: https://github.com/mahmudstat/mahmudstat.github.io
-  repo-actions: [edit, source, issue]
+  repo-url: https://github.com/mahmudstat/mahmudstat.github.io/
   bread-crumbs: true
   navbar:
     tools:
@@ -29,13 +28,13 @@ website:
       - href: websites.qmd
         text: Websites
         icon: globe2
-      - href: about.qmd
-        text: About
-        icon: command
+      - href: writings.qmd
+        text: Writings
+        icon: pen-fill
 
   sidebar:
     style: "docked"
-  page-footer: "Copyright 2025, Abdullah Al Mahmud"
+  page-footer: "Copyright 2025, Abdullah Al Mahmud | Website rendered with Quarto"
 
 format:
   html:

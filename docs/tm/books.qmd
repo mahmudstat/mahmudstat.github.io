@@ -2,7 +2,7 @@
 title: "Books"
 ---
 
-I have written or translated FIVE books, and also contributed to a shared book.
+I have written or translated SIX books, and also contributed to a shared book.
 
 All the books are available on [Rokomari.com](https://www.rokomari.com/book/author/47631).
 
@@ -12,4 +12,11 @@ All the books are available on [Rokomari.com](https://www.rokomari.com/book/auth
 |  2  |      মহাবিশ্বের সীমানা     |      2019      |             |
 |  3  |        অসীম সমীকরণ        |      2019      |             |
 |  4  |     দ্য লাস্ট থ্রি মিনিটস    |      2021      | Translation |
-|  5  |     দ্য ম্যান হউ কাউন্টেড    |      2022      | Translation |
+|  5  |     দ্য ম্যান হু কাউন্টেড    |      2022      | Translation |
+| 6 | জিরো: দ্য বায়োগ্রাফি অব আ ডেঞ্জারাস আইডিয়া | 2025 | Translation |
+
+
+<img style="float: right; border-radius: 1%;" src="https://raw.githubusercontent.com/mahmudstat/articles/refs/heads/main/books/propagation/books2.jpeg" width="70%">
+
+
+

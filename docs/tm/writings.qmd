@@ -1,0 +1,46 @@
+## জ্যোতির্বিদ্যা {#astronomy}
+
+
+<script type="text/javascript">
+function recentpostslist(json) {
+ document.write('<ul>');
+ for (var i = 0; i < json.feed.entry.length; i++)
+ {
+    for (var j = 0; j < json.feed.entry[i].link.length; j++) {
+      if (json.feed.entry[i].link[j].rel == 'alternate') {
+        break;
+      }
+    }
+var entryUrl = "'" + json.feed.entry[i].link[j].href + "'";//bs
+var entryTitle = json.feed.entry[i].title.$t;
+var item = "<li>" + "<a href="+ entryUrl + '" target="_blank">' + entryTitle + "</a> </li>";
+ document.write(item);
+ }
+ document.write('</ul>');
+ }
+</script>
+<script src="https://sky.bishwo.com/feeds/posts/summary/-/Mahmud?max-results=10&alt=json-in-script&callback=recentpostslist"></script>
+
+## পরিসংখ্যান {#statistics}
+
+
+<script type="text/javascript">
+function recentpostslist(json) {
+ document.write('<ul>');
+ for (var i = 0; i < json.feed.entry.length; i++)
+ {
+    for (var j = 0; j < json.feed.entry[i].link.length; j++) {
+      if (json.feed.entry[i].link[j].rel == 'alternate') {
+        break;
+      }
+    }
+var entryUrl = "'" + json.feed.entry[i].link[j].href + "'";//bs
+var entryTitle = json.feed.entry[i].title.$t;
+var item = "<li>" + "<a href="+ entryUrl + '" target="_blank">' + entryTitle + "</a> </li>";
+ document.write(item);
+ }
+ document.write('</ul>');
+ }
+</script>
+<script src="https://www.statmania.info/feeds/posts/summary/-/Mahmud?max-results=10&alt=json-in-script&callback=recentpostslist"></script>
+
