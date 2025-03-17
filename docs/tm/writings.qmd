@@ -21,6 +21,8 @@ var item = "<li>" + "<a href="+ entryUrl + '" target="_blank">' + entryTitle + "
 </script>
 <script src="https://sky.bishwo.com/feeds/posts/summary/-/Mahmud?max-results=10&alt=json-in-script&callback=recentpostslist"></script>
 
+<span style="font-size: 90%; float:right;"><a href="https://sky.bishwo.com/search/label/Mahmud?max-results=20">Read all</a></span>
+
 ## পরিসংখ্যান {#statistics}
 
 
@@ -44,3 +46,4 @@ var item = "<li>" + "<a href="+ entryUrl + '" target="_blank">' + entryTitle + "
 </script>
 <script src="https://www.statmania.info/feeds/posts/summary/-/Mahmud?max-results=10&alt=json-in-script&callback=recentpostslist"></script>
 
+<span style="font-size: 90%; float:right;"><a href="https://www.statmania.info/search/label/Mahmud?max-results=20">Read all</a></span>

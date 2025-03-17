@@ -5,7 +5,7 @@ project:
 website:
   title: "Thinker Mahmud"
   repo-url: https://github.com/mahmudstat/mahmudstat.github.io/
-  bread-crumbs: true
+  bread-crumbs: false
   navbar:
     tools:
       - icon: facebook
