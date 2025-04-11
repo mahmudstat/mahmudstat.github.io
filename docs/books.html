@@ -66,6 +66,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 
 <link rel="stylesheet" href="styles.css">
@@ -172,10 +173,20 @@ ul.task-list li input[type="checkbox"] {
 <p>I have written or translated SIX books, and also contributed to a shared book.</p>
 <p>All the books are available on <a href="https://www.rokomari.com/book/author/47631">Rokomari.com</a>.</p>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 26%">
+<col style="width: 25%">
+<col style="width: 26%">
+<col style="width: 9%">
+<col style="width: 8%">
+</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: center;">SL.</th>
 <th style="text-align: center;">Name</th>
+<th style="text-align: center;">English Title</th>
+<th>Original Author</th>
 <th style="text-align: center;">Year Published</th>
 <th style="text-align: center;">Type</th>
 </tr>
@@ -184,42 +195,100 @@ ul.task-list li input[type="checkbox"] {
 <tr class="odd">
 <td style="text-align: center;">1</td>
 <td style="text-align: center;">অ্যা ব্রিফার হিস্ট্রি অব টাইম</td>
+<td style="text-align: center;">A Briefer History of Time</td>
+<td>Stephen Hawking <br>&amp;<br>Leonard Mlodinow</td>
 <td style="text-align: center;">2017</td>
 <td style="text-align: center;">Translation</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">মহাবিশ্বের সীমানা</td>
+<td style="text-align: center;">The Edge of The Universe</td>
+<td>Myself</td>
 <td style="text-align: center;">2019</td>
 <td style="text-align: center;"></td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">অসীম সমীকরণ</td>
+<td style="text-align: center;">The Infinite Equation</td>
+<td>Myself</td>
 <td style="text-align: center;">2019</td>
 <td style="text-align: center;"></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">4</td>
 <td style="text-align: center;">দ্য লাস্ট থ্রি মিনিটস</td>
+<td style="text-align: center;">The Last Three Minutes</td>
+<td>Paul Davies</td>
 <td style="text-align: center;">2021</td>
 <td style="text-align: center;">Translation</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">5</td>
-<td style="text-align: center;">দ্য ম্যান হু কাউন্টেড</td>
+<td style="text-align: center;">দ্য ম্যান হউ কাউন্টেড</td>
+<td style="text-align: center;">The Man Who Counted</td>
+<td>Malba Tahan</td>
 <td style="text-align: center;">2022</td>
 <td style="text-align: center;">Translation</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">6</td>
 <td style="text-align: center;">জিরো: দ্য বায়োগ্রাফি অব আ ডেঞ্জারাস আইডিয়া</td>
+<td style="text-align: center;">Zero: The Biography of a Dangerous Idea</td>
+<td>Charles Seife</td>
 <td style="text-align: center;">2025</td>
 <td style="text-align: center;">Translation</td>
 </tr>
 </tbody>
 </table>
-<p><img style="float: right; border-radius: 1%;" src="https://raw.githubusercontent.com/mahmudstat/articles/refs/heads/main/books/propagation/books2.jpeg" width="70%"></p>
+<p><img style="display: block; margin: auto; width: 50%;" src="https://raw.githubusercontent.com/mahmudstat/articles/refs/heads/main/books/propagation/books2.jpeg" width="70%"></p>
+<div class="w3-container w3-center">
+<h2 class="anchored">
+Book Covers
+</h2>
+<p>
+Click the thumbnails to switch between slides.
+</p>
+</div>
+<div class="w3-content" style="max-width:800px">
+<p><img class="mySlides" src="https://github.com/mahmudstat/articles/blob/main/books/covers/Cover_Mohabissher-Simana_Final.jpg?raw=true" style="width:100%;display:block"> <img class="mySlides" src="https://github.com/mahmudstat/articles/blob/main/books/covers/a-briefer-histpry-of-time-.jpg?raw=true" style="width:100%;display:none"> <img class="mySlides" src="https://github.com/mahmudstat/articles/blob/main/books/covers/zero_front.jpeg?raw=true" style="width:100%;display:none"></p>
+<div class="w3-row-padding w3-section">
+<pre><code>&lt;div class="w3-col s4"&gt;
+  &lt;img class="demo w3-opacity w3-hover-opacity-off" src="https://github.com/mahmudstat/articles/blob/main/books/covers/Cover_Mohabissher-Simana_Final.jpg?raw=true" style="width:100%;cursor:pointer" onclick="currentDiv(1)"&gt;
+&lt;/div&gt;
+&lt;div class="w3-col s4"&gt;
+  &lt;img class="demo w3-opacity w3-hover-opacity-off" src="https://github.com/mahmudstat/articles/blob/main/books/covers/a-briefer-histpry-of-time-.jpg?raw=true" style="width:100%;cursor:pointer" onclick="currentDiv(2)"&gt;
+&lt;/div&gt;
+&lt;div class="w3-col s4"&gt;
+  &lt;img class="demo w3-opacity w3-hover-opacity-off" src="https://github.com/mahmudstat/articles/blob/main/books/covers/zero_front.jpeg?raw=true" style="width:100%;cursor:pointer" onclick="currentDiv(3)"&gt;
+&lt;/div&gt;</code></pre>
+</div>
+</div>
+<script>
+let slideIndex = 1;
+showDivs(slideIndex);
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  let i;
+  let x = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-opacity-off";
+}
+</script>
 
 
 

@@ -1,22 +1,71 @@
 ---
 title: "Books"
+format:
+  html:
+    allow-scripts: true
+    include-in-header: styles.html
 ---
 
 I have written or translated SIX books, and also contributed to a shared book.
 
 All the books are available on [Rokomari.com](https://www.rokomari.com/book/author/47631).
 
-| SL. |            Name           | Year Published |     Type    |
-|:---:|:-------------------------:|:--------------:|:-----------:|
-|  1  | অ্যা ব্রিফার হিস্ট্রি অব টাইম |      2017      | Translation |
-|  2  |      মহাবিশ্বের সীমানা     |      2019      |             |
-|  3  |        অসীম সমীকরণ        |      2019      |             |
-|  4  |     দ্য লাস্ট থ্রি মিনিটস    |      2021      | Translation |
-|  5  |     দ্য ম্যান হু কাউন্টেড    |      2022      | Translation |
-| 6 | জিরো: দ্য বায়োগ্রাফি অব আ ডেঞ্জারাস আইডিয়া | 2025 | Translation |
+| SL. |                    Name                   |              English Title              | Original Author                           | Year Published |     Type    |
+|:---:|:-----------------------------------------:|:---------------------------------------:|-------------------------------------------|:--------------:|:-----------:|
+| 1   | অ্যা ব্রিফার হিস্ট্রি অব টাইম                 | A Briefer History of Time               | Stephen Hawking <br>&<br>Leonard Mlodinow |      2017      | Translation |
+| 2   | মহাবিশ্বের সীমানা                          | The Edge of The Universe                |                   Myself                  |      2019      |             |
+| 3   | অসীম সমীকরণ                               | The Infinite Equation                   |                   Myself                  |      2019      |             |
+| 4   | দ্য লাস্ট থ্রি মিনিটস                        | The Last Three Minutes                  |                Paul Davies                |      2021      | Translation |
+| 5   | দ্য ম্যান হউ কাউন্টেড                        | The Man Who Counted                     |                Malba Tahan                |      2022      | Translation |
+| 6   | জিরো: দ্য বায়োগ্রাফি অব আ ডেঞ্জারাস আইডিয়া | Zero: The Biography of a Dangerous Idea |               Charles Seife               |      2025      | Translation |
 
 
-<img style="float: right; border-radius: 1%;" src="https://raw.githubusercontent.com/mahmudstat/articles/refs/heads/main/books/propagation/books2.jpeg" width="70%">
+<img style="display: block; margin: auto; width: 50%;" src="https://raw.githubusercontent.com/mahmudstat/articles/refs/heads/main/books/propagation/books2.jpeg" width="70%">
 
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
+<div class="w3-container">
+  <h2>Slideshow Indicators</h2>
+  <p>Using images to indicate how many slides there are in the slideshow, and highlight the image the user is currently viewing.</p>
+</div>
+
+<div class="w3-content" style="max-width:1200px">
+  <img class="mySlides" src="img_nature_wide.jpg" style="width:100%;display:none">
+  <img class="mySlides" src="img_snow_wide.jpg" style="width:100%">
+  <img class="mySlides" src="img_mountains_wide.jpg" style="width:100%;display:none">
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="img_nature_wide.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(1)">
+    </div>
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="img_snow_wide.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(2)">
+    </div>
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="img_mountains_wide.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(3)">
+    </div>
+  </div>
+</div>
+
+<script>
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-opacity-off";
+}
+</script>
 
