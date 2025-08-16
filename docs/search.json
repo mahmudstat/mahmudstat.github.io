@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Abdullah Al Mahmud",
     "section": "",
-    "text": "I am a lecturer in statistics at Sylhet Cadet College, Sylhet. Earlier I taught statistics at Pabna Cadet College. Before joining Cadet College service, I was employed as a research assistant at EAL, Dhaka. I also worked as a science contributor for The Daily Prothom Alo.\nI have, with the pen name Abdullah Adil Mahmud (আব্দুল্যাহ আদিল মাহমুদ), written Six science books, which are all available for purchase on Rokomari.com.\nHailing from Lakshmipur Sadar Upazila, I graduated with B.S. and M.S. degrees from the University of Dhaka.\nI founded Bishwo.com and serve as the editor and contributor of মহাবিশ্ব and Stat Mania.\nI am very passionate about teaching, writing, programming, and data analysis, and I continue doing all of them.\nLearning is by far my best hobby. In my free time, I love to roam around, connect with people, and watch sky.\nI am married 💓 to Salma Siddika, also an alumna of University of Dhaka."
+    "text": "I am a lecturer in statistics at Mymensingh Girls’ Cadet College, Mymensingh. Earlier I taught statistics at Sylhet Cadet College & Pabna Cadet College. Before joining Cadet College service, I was employed as a research assistant at EAL, Dhaka. I also worked as a science contributor for The Daily Prothom Alo.\nI love to make my tecahing slides using coding (10 of them), also generating questions using Python, Bash, and Latex, among others, inside Rstudio, or using Quarto.\nI have, with the pen name Abdullah Adil Mahmud (আব্দুল্যাহ আদিল মাহমুদ), writt en SIX science books, which are all available on Rokomari.com.\nHailing from Lakshmipur Sadar Upazila, I graduated with B.S. and M.S. degrees from the University of Dhaka.\nI founded Bishwo.com and serve as the editor and contributor of মহাবিশ্ব and Stat Mania and Stat Mania Portal.\nI am very passionate about teaching, writing, programming, and data analysis, and I continue doing all of them.\nLearning is by far my best hobby. In my free time, I love to roam around, connect with people, and watch sky.\nI am married 💓 to Salma Siddika, also an alumna of University of Dhaka."
   },
   {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "My current focus is on dveleoping several R packages. The most prominent two are:"
+    "text": "My current focus is on dveleoping several R packages. The most prominent two are:\n\nclockplot: plot event times on a 24-hour clock\nconvmoment: converts moments of a distribution to and from central and raw ones"
   },
   {
     "objectID": "research.html#ongoing-works",
@@ -25,14 +25,14 @@
     "href": "books.html",
     "title": "Books",
     "section": "",
-    "text": "I have written or translated SIX books, and also contributed to a shared book.\nAll the books are available on Rokomari.com.\n\n\n\n\n\n\n\n\n\n\n\nSL.\nName\nEnglish Title\nOriginal Author\nYear Published\nType\n\n\n\n\n1\nঅ্যা ব্রিফার হিস্ট্রি অব টাইম\nA Briefer History of Time\nStephen Hawking &Leonard Mlodinow\n2017\nTranslation\n\n\n2\nমহাবিশ্বের সীমানা\nThe Edge of The Universe\nMyself\n2019\n\n\n\n3\nঅসীম সমীকরণ\nThe Infinite Equation\nMyself\n2019\n\n\n\n4\nদ্য লাস্ট থ্রি মিনিটস\nThe Last Three Minutes\nPaul Davies\n2021\nTranslation\n\n\n5\nদ্য ম্যান হউ কাউন্টেড\nThe Man Who Counted\nMalba Tahan\n2022\nTranslation\n\n\n6\nজিরো: দ্য বায়োগ্রাফি অব আ ডেঞ্জারাস আইডিয়া\nZero: The Biography of a Dangerous Idea\nCharles Seife\n2025\nTranslation\n\n\n\n\n\n\nBook Covers\n\n\nClick the thumbnails to switch between slides.\n\n\n\n  \n\n&lt;div class=\"w3-col s4\"&gt;\n  &lt;img class=\"demo w3-opacity w3-hover-opacity-off\" src=\"https://github.com/mahmudstat/articles/blob/main/books/covers/Cover_Mohabissher-Simana_Final.jpg?raw=true\" style=\"width:100%;cursor:pointer\" onclick=\"currentDiv(1)\"&gt;\n&lt;/div&gt;\n&lt;div class=\"w3-col s4\"&gt;\n  &lt;img class=\"demo w3-opacity w3-hover-opacity-off\" src=\"https://github.com/mahmudstat/articles/blob/main/books/covers/a-briefer-histpry-of-time-.jpg?raw=true\" style=\"width:100%;cursor:pointer\" onclick=\"currentDiv(2)\"&gt;\n&lt;/div&gt;\n&lt;div class=\"w3-col s4\"&gt;\n  &lt;img class=\"demo w3-opacity w3-hover-opacity-off\" src=\"https://github.com/mahmudstat/articles/blob/main/books/covers/zero_front.jpeg?raw=true\" style=\"width:100%;cursor:pointer\" onclick=\"currentDiv(3)\"&gt;\n&lt;/div&gt;"
+    "text": "I have written or translated SIX books, and also contributed to a shared book.\nAll the books are available on Rokomari.com.\n\n\n\n\n\n\n\n\n\n\n\nSL.\nName\nEnglish Title\nOriginal Author\nYear Published\nType\n\n\n\n\n1\nঅ্যা ব্রিফার হিস্ট্রি অব টাইম\nA Briefer History of Time\nStephen Hawking &Leonard Mlodinow\n2017\nTranslation\n\n\n2\nমহাবিশ্বের সীমানা\nThe Edge of The Universe\nMyself\n2019\n\n\n\n3\nঅসীম সমীকরণ\nThe Infinite Equation\nMyself\n2019\n\n\n\n4\nদ্য লাস্ট থ্রি মিনিটস\nThe Last Three Minutes\nPaul Davies\n2021\nTranslation\n\n\n5\nদ্য ম্যান হউ কাউন্টেড\nThe Man Who Counted\nMalba Tahan\n2022\nTranslation\n\n\n6\nজিরো: দ্য বায়োগ্রাফি অব আ ডেঞ্জারাস আইডিয়া\nZero: The Biography of a Dangerous Idea\nCharles Seife\n2025\nTranslation"
   },
   {
     "objectID": "websites.html",
     "href": "websites.html",
     "title": "Websites",
     "section": "",
-    "text": "SL\nName\nTopic\n\n\n\n\n1\nStatistics Lectures\nAcademic Lectures on Statistics\n\n\n2\nStat Mania\nStatistics, Linux, Mathematics, Data Science\n\n\n3\nবিশ্ব ডট কম | মহাকাশ\nজ্যোতির্বিজ্ঞান"
+    "text": "SL\nName\nTopic\n\n\n\n\n1\nStatistics Lectures\nAcademic Lectures on Statistics\n\n\n2\nStat Mania\nStatistics, Linux, Mathematics, Data Science\n\n\n3\nবিশ্ব ডট কম | মহাকাশ\nজ্যোতির্বিজ্ঞান\n\n\n4\nStat Mania Portal\nStatistics, Automation, Data science"
   },
   {
     "objectID": "career.html",

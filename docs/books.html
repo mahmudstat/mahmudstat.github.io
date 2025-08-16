@@ -66,7 +66,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 
 <link rel="stylesheet" href="styles.css">
@@ -242,53 +241,6 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<p><img style="display: block; margin: auto; width: 50%;" src="https://raw.githubusercontent.com/mahmudstat/articles/refs/heads/main/books/propagation/books2.jpeg" width="70%"></p>
-<div class="w3-container w3-center">
-<h2 class="anchored">
-Book Covers
-</h2>
-<p>
-Click the thumbnails to switch between slides.
-</p>
-</div>
-<div class="w3-content" style="max-width:800px">
-<p><img class="mySlides" src="https://github.com/mahmudstat/articles/blob/main/books/covers/Cover_Mohabissher-Simana_Final.jpg?raw=true" style="width:100%;display:block"> <img class="mySlides" src="https://github.com/mahmudstat/articles/blob/main/books/covers/a-briefer-histpry-of-time-.jpg?raw=true" style="width:100%;display:none"> <img class="mySlides" src="https://github.com/mahmudstat/articles/blob/main/books/covers/zero_front.jpeg?raw=true" style="width:100%;display:none"></p>
-<div class="w3-row-padding w3-section">
-<pre><code>&lt;div class="w3-col s4"&gt;
-  &lt;img class="demo w3-opacity w3-hover-opacity-off" src="https://github.com/mahmudstat/articles/blob/main/books/covers/Cover_Mohabissher-Simana_Final.jpg?raw=true" style="width:100%;cursor:pointer" onclick="currentDiv(1)"&gt;
-&lt;/div&gt;
-&lt;div class="w3-col s4"&gt;
-  &lt;img class="demo w3-opacity w3-hover-opacity-off" src="https://github.com/mahmudstat/articles/blob/main/books/covers/a-briefer-histpry-of-time-.jpg?raw=true" style="width:100%;cursor:pointer" onclick="currentDiv(2)"&gt;
-&lt;/div&gt;
-&lt;div class="w3-col s4"&gt;
-  &lt;img class="demo w3-opacity w3-hover-opacity-off" src="https://github.com/mahmudstat/articles/blob/main/books/covers/zero_front.jpeg?raw=true" style="width:100%;cursor:pointer" onclick="currentDiv(3)"&gt;
-&lt;/div&gt;</code></pre>
-</div>
-</div>
-<script>
-let slideIndex = 1;
-showDivs(slideIndex);
-
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
-
-function showDivs(n) {
-  let i;
-  let x = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("demo");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
-  }
-  x[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " w3-opacity-off";
-}
-</script>
 
 
 

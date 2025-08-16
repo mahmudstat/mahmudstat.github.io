@@ -1,16 +1,20 @@
+
 ---
 title: "Abdullah Al Mahmud"
 ---
 
-<img style="float: right; border-radius: 50%;" src="https://www.thinkermahmud.com/img/mahmud.jpg" width="20%">
+<img style="float: right; border-radius: 50%;" src="img/mahmud.jpg" width="30%">
 
-I am a **lecturer in statistics** at *Sylhet Cadet College*, Sylhet. Earlier I taught statistics at *Pabna Cadet College*. Before joining Cadet College service, I was employed as a research assistant at *EAL*, Dhaka. I also worked as a science contributor for *The Daily Prothom Alo*.
+I am a **lecturer in statistics** at *Mymensingh Girls' Cadet College*, Mymensingh. Earlier I taught statistics at *Sylhet Cadet College* & *Pabna Cadet College*. Before joining Cadet College service, I was employed as a research assistant at *EAL*, Dhaka. I also worked as a science contributor for *The Daily Prothom Alo*.
 
-I have, with the pen name *Abdullah Adil Mahmud (আব্দুল্যাহ আদিল মাহমুদ)*, written [**Six science books**](books.html), which are all available for purchase on [Rokomari.com](https://www.rokomari.com/book/author/47631).
+I love to make my [tecahing slides](https://docs.statmania.info/lectures) using coding ([***10 of them***](https://docs.statmania.info)), also generating questions using **Python**, **Bash**, and **Latex**, among others, inside ***Rstudio***, or using [***Quarto***](https://quarto.org).
+
+I have, with the pen name *Abdullah Adil Mahmud (আব্দুল্যাহ আদিল মাহমুদ)*, writt
+en **SIX science books**, which are all available on [Rokomari.com](https://www.rokomari.com/book/author/47631).
 
 Hailing from Lakshmipur Sadar Upazila, I graduated with **B.S.** and **M.S.** degrees from the **University of Dhaka**.
 
-I founded [Bishwo.com](https://www.bishwo.com) and serve as the editor and contributor of [মহাবিশ্ব](https://sky.bishwo.com) and [Stat Mania](https://www.statmania.info).
+I founded [Bishwo.com](https://www.bishwo.com) and serve as the editor and contributor of [মহাবিশ্ব](https://sky.bishwo.com) and [Stat Mania](https://www.statmania.info) and [Stat Mania Portal](https://portal.statmania.info).
 
 I am very passionate about teaching, writing, programming, and data analysis, and I continue doing all of them.
 

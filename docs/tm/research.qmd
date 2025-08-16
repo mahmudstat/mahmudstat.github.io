@@ -2,13 +2,19 @@
 title: "Research"
 ---
 
+### R Packages
+
 My current focus is on dveleoping several `R` packages. The most prominent two
 are:
 
-a. [`clockplot`](https://www.thinkermahmud.com/clockplot/): plot event times on a
+a. [***clockplot***](https://www.thinkermahmud.com/clockplot/): plot event times on a
   24-hour clock
-b. [`convmoment`](https://www.thinkermahmud.com/convmoment/): converts moments 
+b. [***convmoment***](https://www.thinkermahmud.com/convmoment/): converts moments
   of a distribution to and from central and raw ones
+
+### Javascript Packages
+
+a. [***qdraw***](https://www.thinkermahmud.com/qdraw/): A revealjs plugin to annotate web slides/presentations.
 
 ### Conference Presentations
 

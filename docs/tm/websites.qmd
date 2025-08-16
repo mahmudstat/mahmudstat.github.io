@@ -2,8 +2,9 @@
 title: "Websites"
 ---
 
-| SL |                          Name                          |                     Topic                    |
-|:--:|:------------------------------------------------------:|:--------------------------------------------:|
-|  1 | [Statistics Lectures](https://docs.statmania.info/) |        Academic Lectures on Statistics       |
-|  2 |        [Stat Mania](https://www.statmania.info/)       | Statistics, Linux, Mathematics, Data Science |
-|  3 |     [বিশ্ব ডট কম \| মহাকাশ](https://sky.bishwo.com)     |                 জ্যোতির্বিজ্ঞান                 |
+| SL | Name                                                        | Topic                                        |
+|----|-------------------------------------------------------------|----------------------------------------------|
+| 1  | [Statistics Lectures](https://docs.statmania.info/lectures) | Academic Lectures on Statistics              |
+| 2  | [Stat Mania](https://www.statmania.info/)                   | Statistics, Linux, Mathematics, Data Science |
+| 3  | [বিশ্ব ডট কম \| মহাকাশ](https://sky.bishwo.com)              | জ্যোতির্বিজ্ঞান                                 |
+| 4  | [Stat Mania Portal](https://portal.statmania.info/)         | Statistics, Automation, Data science         |
