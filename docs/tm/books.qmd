@@ -8,7 +8,15 @@ format:
 
 I have written or translated SIX books, and also contributed to a shared book.
 
-All the books are available on [Rokomari.com](https://www.rokomari.com/book/author/47631).
+::: {.grid .gap-3 .pb-3 .pt-4}
+::: {.g-col-12 .g-col-sm-4}
+[](#){.btn-action-primary .btn-action .btn .btn-lg .w-100 role="button"}
+:::
+::: {.g-col-12 .g-col-sm-4 .mb-2}
+[Explore on Rokomari.com](https://www.rokomari.com/book/author/47631){#btn-guide .btn-action .btn-secondary .btn .btn-lg .w-100 role="button"}
+:::
+:::
+
 
 | SL. |                    Name                   |              English Title              | Original Author                           | Year Published |     Type    |
 |:---:|:-----------------------------------------:|:---------------------------------------:|-------------------------------------------|:--------------:|:-----------:|

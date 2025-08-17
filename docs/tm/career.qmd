@@ -1,15 +1,45 @@
 ---
 title: "Career"
+format: html
+css: styles.css
 ---
 
-- 2010: Started Blogging
-- 2014: First magazine article published on *Pie Zero to Infinity*
-- 2014: Started writing on and editing *Byapon* Science Magazine
-- 2016: Started Writing for *Bigganchinta* Science Magazine
-- 2017: [First Book Published](books.html)
-- 2017: Started professional research works in national projects
-- 2019: Joined as a Research Assistant at **Engineers and Advisers Ltd. (EAL)**
-- 2019: First scientific conference at MBSTU
-- 2019: Joined in Pabna Cadet College
-- 2020: Scientific Paper on Benford's Law published
-- 2022: Joined in Sylhet Cadet College
+:::{.timeline}
+### 2025
+- Created JavaScript package [`qdraw`](https://www.thinkermahmud.com/qdraw/)
+- Created a [`bash` & `python`](https://github.com/mahmudstat/stat-lectures/blob/main/question/bank/fetch_questions.py) hybrid script to generate question bank from spreadsheet questions
+- Created an automated [`bash` script](https://github.com/mahmudstat/stat-lectures/blob/main/web/qlinks.sh) to generate statistics question bank
+- Joined in Mymensingh Girls' Cadet College
+
+### 2024
+- Published book - [Zero: The Biography of a Dangerous Idea](https://www.rokomari.com/book/author/47631)
+- developed the R package [convmoment](https://www.thinkermahmud.com/convmoment/)
+
+### 2023
+- Started developing the R package [clockplot](https://www.thinkermahmud.com/clockplot/)
+
+### 2022
+- Joined in Sylhet Cadet College
+
+### 2020
+Scientific Paper on Benford's Law published
+
+### 2019
+- Joined in Pabna Cadet College
+- First scientific conference at MBSTU
+- Joined as a Research Assistant at **Engineers and Advisers Ltd. (EAL)**
+
+### 2017
+- Started professional research works in national projects
+- [First Book Published](books.html)
+
+### 2016
+Started Writing for *Bigganchinta* Science Magazine
+
+### 2014
+- Started writing on and editing *Byapon* Science Magazine
+- First magazine article published on *Pie Zero to Infinity*
+
+### 2010
+Started Blogging
+:::
