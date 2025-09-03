@@ -24,13 +24,16 @@ website:
         icon: binoculars
       - href: career.qmd
         text: Career
-        icon: list-ul
+        icon: graph-up-arrow
       - href: websites.qmd
         text: Websites
         icon: globe2
       - href: writings.qmd
         text: Writings
         icon: pen-fill
+      - href: quotes.qmd
+        text: Quotes
+        icon: blockquote-right
 
   sidebar:
     style: "docked"

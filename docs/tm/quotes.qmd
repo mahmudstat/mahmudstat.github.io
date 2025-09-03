@@ -1,0 +1,18 @@
+---
+title: "Favorite Quotes"
+format: html
+css: styles.css
+---
+
+## Famous Quotes
+
+> If you're thinking without writing, you only think you're thinking.
+> --- Leslie Lamport
+
+## Mine
+
+> The sonner you fall into a problem, the better, because the sooner you get the solution.
+> --- Myself
+
+> If you are faced with a lot of problems, solve them one by one if you are stuck.
+> --- Myself

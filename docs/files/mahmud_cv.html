@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdullah Al Mahmud - Professional CV</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5; /* Light grey background */
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; /* Align to the top */
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .cv-container {
+            max-width: 900px;
+            width: 100%;
+            background-color: #ffffff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: row; /* Always two columns */
+            margin-top: 20px; /* Space from top */
+            margin-bottom: 20px;
+        }
+        /* Removed media query for flex-direction to keep it row always */
+
+        .section-title {
+            position: relative;
+            padding-bottom: 8px;
+            margin-bottom: 16px;
+            font-weight: 600;
+            color: #333;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .section-title::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 50px; /* Underline width */
+            height: 3px;
+            background-color: #000; /* Underline color */
+            border-radius: 2px;
+        }
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%; /* Makes the image round */
+            object-fit: cover;
+            border: 4px solid #fff;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        }
+        .progress-bar-container {
+            width: 100%;
+            background-color: #e0e0e0;
+            border-radius: 5px;
+            height: 8px;
+            overflow: hidden;
+            margin-top: 4px;
+        }
+        .progress-bar {
+            height: 100%;
+            background-color: #000; /* Black progress bar */
+            border-radius: 5px;
+        }
+        .language-item {
+            margin-bottom: 15px; /* More space between languages */
+        }
+        .language-item p {
+            font-size: 0.875rem; /* text-sm */
+            color: #4a5568; /* text-gray-700 */
+            margin-bottom: 5px; /* Space between text and bar */
+            font-weight: 500;
+        }
+        .language-progress-wrapper {
+            display: flex;
+            align-items: center;
+        }
+        .progress-text {
+            font-size: 0.75rem; /* text-xs */
+            font-weight: 500; /* font-medium */
+            color: #4a5568; /* text-gray-700 */
+            width: 40px; /* Fixed width for percentage */
+            text-align: right;
+            margin-left: 10px; /* Space between bar and percentage */
+        }
+        /* Specific styling for work experience timeline */
+        .timeline-item {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+        .timeline-item:not(:last-child)::before {
+            content: '';
+            position: absolute;
+            left: 8px;
+            top: 0;
+            bottom: -20px; /* Extend line to connect items */
+            width: 2px;
+            background-color: #d1d5db; /* Light gray line */
+        }
+        .timeline-item::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 18px;
+            height: 18px;
+            background-color: #000;
+            border-radius: 50%;
+            border: 3px solid #fff;
+            box-shadow: 0 0 0 2px #000;
+            z-index: 10;
+        }
+        .timeline-item-date {
+            position: absolute;
+            left: -90px; /* Adjusted to accommodate new date format */
+            top: 50%; /* Vertically center the date text with the dot */
+            transform: translateY(-50%); /* Adjust for vertical centering */
+            font-weight: 600;
+            color: #000;
+            width: 80px; /* Increased width for two lines */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-end; /* Align the text to the right within its 80px width */
+            line-height: 1.2; /* Adjust line height for better spacing */
+            text-align: right; /* Explicitly align text within lines */
+        }
+        .timeline-content {
+            padding-left: 20px; /* Space for the line and dot */
+        }
+        .timeline-section {
+            padding-left: 80px; /* General padding for timeline content */
+        }
+        .timeline-title {
+            font-weight: bold;
+            color: #1a202c; /* text-gray-900 */
+            font-size: 1rem; /* text-base */
+        }
+        .timeline-subtitle {
+            font-style: italic;
+            color: #4a5568; /* text-gray-700 */
+            font-size: 0.875rem; /* text-sm */
+        }
+        .job-description {
+            font-size: 0.875rem; /* text-sm */
+            color: #4a5568; /* text-gray-700 */
+            margin-top: 8px;
+            line-height: 1.5;
+        }
+        /* Print Styles for Page Breaks */
+        @media print {
+            .page {
+                break-after: page;
+            }
+            .page-break {
+                break-after: page;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex justify-center py-8">
+    <div class="cv-container">
+        <!-- Left Column: Photo, Name, Designation, Contact, Education, Skills, Created Packages, Websites, Languages -->
+        <aside class="w-2/5 bg-gray-50 p-8 rounded-t-lg rounded-tr-none rounded-tl-lg rounded-bl-lg shadow-inner flex flex-col items-center text-center">
+            <!-- Photo, Name, Designation -->
+            <div class="personal-info mb-8">
+                <img src="mahmud.jpg" alt="Abdullah Al Mahmud" class="profile-pic mb-4 block mx-auto">
+                <h1 class="text-3xl font-bold uppercase tracking-wide mb-1 text-gray-900">Abdullah Al Mahmud</h1>
+                <p class="text-lg font-medium uppercase tracking-wider opacity-90 text-gray-700">Teacher — Writer — Data Analyst</p>
+            </div>
+
+            <div class="w-full">
+                <div class="mb-8">
+                    <h2 class="section-title text-lg mb-4 text-left">CONTACT</h2>
+                    <ul class="text-gray-700 text-sm space-y-3 text-left">
+                        <li><i class="fas fa-envelope mr-3 text-gray-500"></i> almahmud.sbi@gmail.com</li>
+                        <li><i class="fas fa-phone mr-3 text-gray-500"></i> +88 01 722 437040</li>
+                        <li><i class="fas fa-map-marker-alt mr-3 text-gray-500"></i> Mymensingh Girls’ Cadet College, Mymensingh</li>
+                        <li><i class="fas fa-city mr-3 text-gray-500"></i> Home District: Lakshmipur</li>
+                        <li><i class="fas fa-birthday-cake mr-3 text-gray-500"></i> 01 August, 1993</li>
+                        <li><i class="fas fa-globe mr-3 text-gray-500"></i> <a href="https://www.thinkermahmud.com" target="_blank" class="text-blue-600 hover:underline">thinkermahmud.com</a></li>
+                        <li><i class="fab fa-github mr-3 text-gray-500"></i> <a href="https://github.com/mahmudstat" target="_blank" class="text-blue-600 hover:underline">mahmudstat</a></li>
+                    </ul>
+                </div>
+
+                <div class="mb-8">
+                    <h2 class="section-title text-lg mb-4 text-left"><i class="fas fa-graduation-cap mr-2 text-gray-600"></i>EDUCATION</h2>
+                    <div class="flex flex-col space-y-5">
+                        <div class="w-full">
+                            <h3 class="font-semibold text-gray-800 text-base">M.Sc. in Statistics, 2018</h3>
+                            <p class="text-sm text-gray-600 italic">• University of Dhaka</p>
+                            <p class="text-xs text-gray-500 mt-1">Result: 2.71 (out of 4)</p>
+                        </div>
+                        <div class="w-full">
+                            <h3 class="font-semibold text-gray-800 text-base">B.Sc. in Statistics, 2017</h3>
+                            <p class="text-sm text-gray-600 italic">• University of Dhaka</p>
+                            <p class="text-xs text-gray-500 mt-1">CGPA: 3.31 (out of 4)</p>
+                        </div>
+                        <div class="w-full">
+                            <h3 class="font-semibold text-gray-800 text-base">HSC, 2010</h3>
+                            <p class="text-sm text-gray-600 italic">Udayan Uccha Madhyamik Bidyalaya</p>
+                            <p class="text-xs text-gray-500 mt-1">Result: 5.00 (out of 5)</p>
+                        </div>
+                        <div class="w-full">
+                            <h3 class="font-semibold text-gray-800 text-base">SSC, 2008</h3>
+                            <p class="text-sm text-gray-600 italic">Poura Shahid Smrity Academy</p>
+                            <p class="text-xs text-gray-500 mt-1">Result: 5.00 (out of 5)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-8">
+                    <h2 class="section-title text-lg mb-4 text-left">SKILLS</h2>
+                    <ul class="text-gray-700 text-sm space-y-2 text-left">
+                        <li><i class="fas fa-chart-bar mr-2 text-gray-600"></i><span class="font-semibold text-gray-800">Data Analysis:</span> R, Python, STATA, SPSS, SQL, GIS, EXCEL/Spreadsheet, Shell/Bash, Git</li>
+                        <li><i class="fas fa-code-branch mr-2 text-gray-600"></i><span class="font-semibold text-gray-800">Version Control:</span> Git, Github</li>
+                        <li><i class="fas fa-file-alt mr-2 text-gray-600"></i><span class="font-semibold text-gray-800">Document Processing:</span> Quarto, Latex, Markdown, Office Suite, Mathjax</li>
+                        <li><i class="fas fa-globe mr-2 text-gray-600"></i><span class="font-semibold text-gray-800">Internet Skills:</span> Prompt Engineering/Vibe Coding, HTML, CSS, JS, Blogging, Web Development</li>
+                        <li><i class="fas fa-lightbulb mr-2 text-gray-600"></i><span class="font-semibold text-gray-800">Ability, Curiosity, & Interest to Learn New Things and Adapt</span></li>
+                    </ul>
+                </div>
+
+                <div class="mb-8">
+                    <h2 class="section-title text-lg mb-4 text-left">CREATED PACKAGES</h2>
+                    <ul class="text-gray-700 text-sm space-y-2 text-left">
+                        <li><i class="fas fa-box-open mr-2 text-gray-600"></i><a href="../clockplot" target="_blank" class="text-blue-600 hover:underline"><span class="font-semibold text-gray-800">clockplot</span></a> (R Programming)</li>
+                        <li><i class="fas fa-cube mr-2 text-gray-600"></i><a href="../convmoment" target="_blank" class="text-blue-600 hover:underline"><span class="font-semibold text-gray-800">convmoment</span></a> (R Programming)</li>
+                        <li><i class="fas fa-puzzle-piece mr-2 text-gray-600"></i><a href="https://www.thinkermahmud.com/qdraw/" target="_blank" class="text-blue-600 hover:underline"><span class="font-semibold text-gray-800">qdraw</span></a> (Javascript Plugin)</li>
+                    </ul>
+                </div>
+
+                <div class="mb-8">
+                    <h2 class="section-title text-lg mb-4 text-left">WEBSITES</h2>
+                    <ul class="text-gray-700 text-sm space-y-2 text-left">
+                        <li><i class="fas fa-link mr-2 text-gray-600"></i><a href="https://sky.bishwo.com/" target="_blank" class="text-blue-600 hover:underline"><span class="font-semibold">Bishwo.com</span></a> (On Astronomy)</li>
+                        <li><i class="fas fa-link mr-2 text-gray-600"></i><a href="http://www.statmania.info/" target="_blank" class="text-blue-600 hover:underline"><span class="font-semibold">Statmania.info</span></a> (On Statistics and Data Science)</li>
+                        <li><i class="fas fa-link mr-2 text-gray-600"></i><a href="http://portal.statmania.info/" target="_blank" class="text-blue-600 hover:underline"><span class="font-semibold">Statmania Portal</span></a></li>
+                        <li><i class="fas fa-link mr-2 text-gray-600"></i><a href="https://www.thinkermahmud.com/" target="_blank" class="text-blue-600 hover:underline"><span class="font-semibold">Personal website</span></a></li>
+                    </ul>
+                </div>
+
+                <div class="mb-8">
+                    <h2 class="section-title text-lg mb-4 text-left">LANGUAGES</h2>
+                    <div class="language-item">
+                        <p>Bangla (mother tongue)</p>
+                        <div class="language-progress-wrapper">
+                            <div class="progress-bar-container">
+                                <div class="progress-bar" style="width: 100%;"></div>
+                            </div>
+                            <span class="progress-text">100%</span>
+                        </div>
+                    </div>
+                    <div class="language-item">
+                        <p>English</p>
+                        <div class="language-progress-wrapper">
+                            <div class="progress-bar-container">
+                                <div class="progress-bar" style="width: 90%;"></div>
+                            </div>
+                            <span class="progress-text">90%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Right Column: Profile, Education, Experience -->
+        <main class="w-3/5 p-8">
+            <div class="mb-8">
+                <h2 class="section-title text-lg mb-4"><i class="fas fa-user-circle mr-2 text-gray-600"></i>PROFILE</h2>
+                <p class="text-gray-700 text-sm leading-relaxed">
+                    Bewitched by the thrill of statistical theories, number crunching, automation, and data analysis, I aspire and endeavor to work in an analytic position, where I would have the opportunity to deal with challenging data wrangling and analysis tasks.
+                </p>
+            </div>
+
+            <div class="mb-8">
+                <h2 class="section-title text-lg mb-4"><i class="fas fa-briefcase mr-2 text-gray-600"></i>WORK EXPERIENCE</h2>
+                <div class="timeline-section relative">
+                    <div class="timeline-item">
+                        <span class="timeline-item-date">
+                            Present<br>↑<br>2019
+                        </span>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Lecturer in Statistics <span class="font-normal text-gray-600">at Bangladesh Cadet College</span></h3>
+                            <p class="job-description">Taught statistics and probability.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="timeline-item-date">
+                            2019<br>↑<br>2019
+                        </span>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Research Assistant <span class="font-normal text-gray-600">at Engineers and Advisers Ltd. (EAL)</span></h3>
+                            <ul class="list-disc list-inside text-gray-700 text-sm mt-2 space-y-1 job-description">
+                                <li>Collected and analyzed data on past mega projects in Bangladesh.</li>
+                                <li>Quantitatively found prospects for future projects using statistical models.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="timeline-item-date">
+                            2019<br>↑<br>2018
+                        </span>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Content Developer <span class="font-normal text-gray-600">at Statistical Research Consultants, Bangladesh (SRCBD)</span></h3>
+                            <p class="job-description">Wrote and developed contents for teaching statistics and programming/software tools.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="timeline-item-date">
+                            2019<br>↑<br>2016
+                        </span>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Science Contributor <span class="font-normal text-gray-600">at Bigganchinta, The Daily Prothom Alo</span></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-8">
+                <h2 class="section-title text-lg mb-4"><i class="fas fa-book-open mr-2 text-gray-600"></i>PUBLICATION</h2>
+                <ul class="list-disc list-inside text-gray-700 text-sm space-y-2">
+                    <li><span class="font-semibold">2020</span> Mahmud, A, A . 2020. Testing of Compliance of Benford’s Law with Disaster Death Tolls. Cadet College Journal.</li>
+                    <li><span class="font-semibold">2018</span> Mahmud, A, A and Rahman, M, M. Goodness of fit for uniform distribution: Benford’s law method. National Conference on Applications of Statistics on Sustainable Development Goals, MBSTU-2018, 24 September 2018. ID: TS3-11, Tangail, Bangladesh.</li>
+                </ul>
+            </div>
+
+            <div class="mb-8">
+                <h2 class="section-title text-lg mb-4"><i class="fas fa-flask mr-2 text-gray-600"></i>SELECTED RESEARCH WORKS</h2>
+                <ul class="list-disc list-inside text-gray-700 text-sm space-y-2">
+                    <li><span class="font-semibold">2024</span> An Examination of Public Perceptions of Transgender Individuals in Bangladesh
+                        <ul class="list-circle list-inside ml-5 text-gray-600 text-xs mt-1 space-y-1">
+                            <li>Collected data through interviews (both in-person and online forms) and analyzed to find insights.</li>
+                        </ul>
+                    </li>
+                    <li><span class="font-semibold">2020</span> Social Media Trend of Youth Students, conducted by Move Foundation
+                        <ul class="list-circle list-inside ml-5 text-gray-600 text-xs mt-1 space-y-1">
+                            <li>Collaborated with data collectors.</li>
+                            <li>Analyzed data to find relationships between various traits of youths.</li>
+                        </ul>
+                    </li>
+                    <li><span class="font-semibold">2019</span> Feasibility Study: Dhaka-Chattogram High-speed Rail Project</li>
+                    <li><span class="font-semibold">2018</span> An Analysis of Land Sale Pattern in Dhaka
+                        <ul class="list-circle list-inside ml-5 text-gray-600 text-xs mt-1 space-y-1">
+                            <li>Collected data from land owners over phone and in-person.</li>
+                            <li>Analyzed data to find anomalies and key insights.</li>
+                        </ul>
+                    </li>
+                    <li><span class="font-semibold">2017</span> An Analysis of Induced Seismic Activities in Bangladesh
+                        <ul class="list-circle list-inside ml-5 text-gray-600 text-xs mt-1 space-y-1">
+                            <li>Collected earthquake data in Bangladesh.</li>
+                            <li>Gathered data on the withdrawal of mineral resources in Bangladesh.</li>
+                            <li>Analyzed the association between these datasets.</li>
+                            <li>Projected geographic data on Bangladesh map using <strong>R</strong> programming language.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="mb-8">
+                <h2 class="section-title text-lg mb-4"><i class="fas fa-book mr-2 text-gray-600"></i>PUBLISHED BOOKS</h2>
+                <p class="text-gray-700 text-sm mb-3">Available on <a href="https://www.rokomari.com/book/author/47631/" target="_blank" class="text-blue-600 hover:underline">Rokomari.com</a></p>
+                <ul class="list-disc list-inside text-gray-700 text-sm space-y-2">
+                    <li><span class="font-semibold">2025</span> Zero: The Biography of a Dangerous Idea (Translation)</li>
+                    <li><span class="font-semibold">2022</span> The Man Who Counted (Translation)</li>
+                    <li><span class="font-semibold">2021</span> The Last Three Minutes (Translation)</li>
+                    <li><span class="font-semibold">2019</span> Mohabishwer Simana & Osim Somikoron</li>
+                    <li><span class="font-semibold">2017</span> A Briefer History of Time (Bengali Translation)</li>
+                </ul>
+            </div>
+
+            <div class="mb-8">
+                <h2 class="section-title text-lg mb-4"><i class="fas fa-handshake mr-2 text-gray-600"></i>REFERENCES</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">
+                    <div>
+                        <p class="font-semibold text-gray-800">Dr. Md. Jafar Ahmed Khan</p>
+                        <p class="text-gray-700 text-sm">Professor, Department of Statistics</p>
+                        <p class="text-gray-700 text-sm">University of Dhaka</p>
+                        <p class="text-gray-700 text-sm"><i class="fas fa-envelope mr-2 text-gray-500"></i> jafar@du.ac.bd</p>
+                        <p class="text-gray-700 text-sm"><i class="fas fa-phone mr-2 text-gray-500"></i> +8801965350939</p>
+                    </div>
+                    <div>
+                        <p class="font-semibold text-gray-800">Dr. Wasimul Bari</p>
+                        <p class="text-gray-700 text-sm">Professor, Department of Statistics</p>
+                        <p class="text-gray-700 text-sm">University of Dhaka</p>
+                        <p class="text-gray-700 text-sm"><i class="fas fa-envelope mr-2 text-gray-500"></i> w bari@du.ac.bd</p>
+                        <p class="text-gray-700 text-sm"><i class="fas fa-phone mr-2 text-gray-500"></i> +8801817522559</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

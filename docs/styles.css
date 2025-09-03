@@ -32,3 +32,22 @@
 .timeline p {
   margin: 0 0 20px 0;
 }
+
+.timeline li {
+  margin-bottom: 5px;
+  list-style-type: none;
+  list-style: none;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Adds a smooth transition */
+}
+
+.timeline li:hover {
+  background-color: DarkGray;
+  cursor: pointer;
+}
+
+.timeline li::before {
+  font-family: "Font Awesome 6 Free"; /* 2. Specifies the Font Awesome font */
+  font-weight: 900; /* 3. Ensures the solid icon style is used */
+  content: "\2023"; /* 4. Inserts the checkmark icon's Unicode */
+  margin-right: 10px; /* 6. Adds space between the icon and text */
+}
