@@ -4,11 +4,7 @@ title: "Research"
 
 ### R Packages
 
-My current focus is on dveleoping several `R` packages. The most prominent two
-are:
-
-a. [***clockplot***](https://www.thinkermahmud.com/clockplot/): plot event times on a
-  24-hour clock
+a. `clockplot`: Plot Event Times on a 24-Hour Clock, published on [CRAN](https://cran.r-project.org/web/packages/clockplot/index.html)
 b. [***convmoment***](https://www.thinkermahmud.com/convmoment/): converts moments
   of a distribution to and from central and raw ones
 

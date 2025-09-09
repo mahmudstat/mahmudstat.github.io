@@ -11,7 +11,7 @@
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "My current focus is on dveleoping several R packages. The most prominent two are:\n\nclockplot: plot event times on a 24-hour clock\nconvmoment: converts moments of a distribution to and from central and raw ones"
+    "text": "clockplot: Plot Event Times on a 24-Hour Clock, published on CRAN\nconvmoment: converts moments of a distribution to and from central and raw ones"
   },
   {
     "objectID": "research.html#ongoing-works",
