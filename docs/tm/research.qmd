@@ -2,16 +2,6 @@
 title: "Research"
 ---
 
-### R Packages
-
-a. `clockplot`: Plot Event Times on a 24-Hour Clock, published on [CRAN](https://cran.r-project.org/web/packages/clockplot/index.html)
-b. [***convmoment***](https://www.thinkermahmud.com/convmoment/): converts moments
-  of a distribution to and from central and raw ones
-
-### Javascript Packages
-
-a. [***qdraw***](https://www.thinkermahmud.com/qdraw/): A revealjs plugin to annotate web slides/presentations.
-
 ### Conference Presentations
 
 - Mahmud, A, A and Rahman, M, M. Goodness of fit for uniform distribution: Benford’s law
@@ -21,6 +11,18 @@ MBSTU-2018, 24 September 2018. ID: TS3-11, Tangail, Bangladesh.
 ### Published Papers
 
 - Mahmud, A, A . 2020. Testing of Compliance of Benford’s Law with Disaster Death Tolls. Cadet College Journal.
+
+### Poster Presentations
+
+- Uddin, M, A and Mahmud, A, A. Impact of Production of Mineral Resources on Induced Seismicity in Bangladesh. Conference on Environmental Solutions for Sustainable Development: Towrads Developed Bangladesh (CESSD 2019), 27-28 November 2019. ID: 176, Dhaka, Bangladesh
+
+### Softwares
+
+- Mahmud AA (2025). _clockplot: Plot Event Times on a 24-Hour Clock_.
+  doi:10.32614/CRAN.package.clockplot
+  <https://doi.org/10.32614/CRAN.package.clockplot>, R package version 0.7.2,
+  <https://CRAN.R-project.org/package=clockplot>
+- Abdullah Al Mahmud. 2025, qdraw (Quarto Revealjs plugin), v1.0.0, Zenodo, doi: 10.5281/ZENODO.17087727, as developed on GitHub)
 
 ## Ongoing Works
 
