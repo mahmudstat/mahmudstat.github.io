@@ -8,7 +8,7 @@ title: "Research"
 
 - Mahmud, A. A. (2025). qdraw (Version 1.0.0) [Quarto Revealjs plugin]. Zenodo. https://doi.org/10.5281/ZENODO.17087727.
 
-- Mahmud, A. A. (2020). Testing of Compliance of Benford’s Law with Disaster Death Tolls. *Cadet College Journal*, 3(2), 17–25
+- Mahmud, A. A. (2020). Testing of Compliance of Benford’s Law with Disaster Death Tolls. *Cadet College Journal*, 3(2), 17–25 https://doi.org/10.5281/zenodo.17116703
 
 - Uddin, M. A., & Mahmud, A. A. (2019, November 27–28). Impact of Production of Mineral Resources on Induced Seismicity in Bangladesh. [Poster Presentation]. Conference on Environmental Solutions for Sustainable Development: Towards Developed Bangladesh (CESSD 2019), Dhaka, Bangladesh.
 
