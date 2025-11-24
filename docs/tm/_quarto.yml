@@ -19,7 +19,7 @@ website:
       - href: books.qmd
         text: Books
         icon: book
-      - href: /stat-lectures
+      - href: /stat-lectures/lectures.html
         text: Teaching
         icon: pen
       - href: research.qmd
